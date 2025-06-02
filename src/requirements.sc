@@ -16,3 +16,5 @@ require: entities/patronymic/patronymic.sc
 require: entities/surnames/surname.sc
 require: entities/adresses/adresses_b.sc
 require: entities/regionsEntity/regions.sc
+
+require: themes/authorization.sc
