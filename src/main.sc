@@ -39,7 +39,7 @@ theme: /
                 "Получение кредита (временного доступа)" -> /Auth/Authorization
         if: $session.transport === "telegram" || $session.transport === "widget" || $session.transport === "insta_official"
             buttons:
-                "Получение кредита (временного доступа)" 
+                "Получение кредита (временного доступа)" -" -> /Auth/Authorization
                 "Не работает интернет или телевидение" 
                 "Подключение к интернету или телевидению" 
                 "Оплатить услуги" 
