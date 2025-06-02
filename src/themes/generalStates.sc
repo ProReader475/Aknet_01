@@ -42,14 +42,34 @@ theme: /GeneralStates
     state: ConnectionTechSupport
         intent: /ДоступДляДругого
         a: Перевожу Вас на оператора. Пожалуйста, ожидайте и не выходите из чата.
-        scriptEs6:
-            $response.replies = $response.replies || [];
-            $response.replies.push({
-                type: "switch",
-                appendCloseChatButton: false,
-                destination: "test_2"
-            });
+        script:
+            
+            $session.stateCountInARow = $session.stateCountInARow || 0;
+            $session.stateCountInARow += 1;
+        if: $session.stateCountInARow < 2
+        script:
+            var history = $jsapi.chatHistory();
+            var context = parseChatHistory(history);
+            endChat($session.requestid, $session.dialogid, $session.callerid, $session.need_callback,context)
+                .then(function(results) {
+                    $response.replies = $response.replies || [];
+                    $response.replies.push({
+                        type: "switch",
+                        appendCloseChatButton: false,
+                        destination: "test_2"
+                    });
+                })
+                .catch(function(error) {
+                    $reactions.answer("Возникла техническая ошибка. Напишите нам, пожалуйста, чуть позже.");
+                    $reactions.transition("/SomethingElse");
+                });
 
+    
+        state: Return
+            event!: livechatFinished
+            a: Диалог с оператором завершён, на связи снова бот-помощник.
+            go!: /SomethingElse
+        
             
     state: FileEvent || noContext = true 
         event!: fileEvent 
@@ -114,11 +134,6 @@ theme: /GeneralStates
         intent: /ЗаявкаНаПерерасчет
         a: Понял Вас.
         go!: /GeneralStates/ConnectionTechSupport   
-        
-    state: Return
-        event!: livechatFinished
-        a: Диалог с оператором завершён, на связи снова бот-помощник.
-        go!: /SomethingElse
-        
+    
         
     
