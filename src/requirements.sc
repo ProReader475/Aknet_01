@@ -18,3 +18,4 @@ require: entities/adresses/adresses_b.sc
 require: entities/regionsEntity/regions.sc
 
 require: themes/authorization.sc
+require: themes/generalStates.sc
