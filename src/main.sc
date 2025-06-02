@@ -35,6 +35,8 @@ theme: /
         go!: /Menu
         
     state: Menu
+        buttons:
+                "Получение кредита (временного доступа)" -> /Auth/Authorization
         if: $session.transport === "telegram" || $session.transport === "widget" || $session.transport === "insta_official"
             buttons:
                 "Получение кредита (временного доступа)" 
