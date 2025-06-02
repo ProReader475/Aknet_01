@@ -9,6 +9,7 @@ tests:
   include:
     - test.xml
 
+
 nlp:
   intentNoMatchThresholds:
     phrases: 0.2
