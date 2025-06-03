@@ -4,27 +4,28 @@ theme: /
     state: CheckDataBase
         q!: $regex</start>         
         q!: * $Hello *
-        script:
-            $jsapi.startSession();
+        # script:
+        #     $jsapi.startSession();
 
-            $session.transport = $request.rawRequest.transport            
+        #     $session.transport = $request.rawRequest.transport            
 
-            if($session.transport === "widget" || $session.transport === "external") {
-                $session.phone = $request.rawRequest.client.client_phone
-            } 
+        #     if($session.transport === "widget" || $session.transport === "external") {
+        #         $session.phone = $request.rawRequest.client.client_phone
+        #     } 
             
-            var requestid = $context.request.questionId;
-            var dialogid = $context.sessionId;
-            var callerid = $context.callerId || "неизвестен" ;
+        #     var requestid = $context.request.questionId;
+        #     var dialogid = $context.sessionId;
+        #     var callerid = $context.callerId || "неизвестен" ;
             
-            checkDataBase(requestid, dialogid,callerid)
-                .then(function(results) {
-                    $reactions.transition("/Start");
-                })
-                .catch(function(error) {
-                    $reactions.answer("Здравствуйте! Я бот-помощник. К сожалению, на данный момент не могу обработать Ваш запрос. Перевожу на оператора — ожидайте, пожалуйста.");
-                    $reactions.transition("/GeneralStates/ConnectionTechSupport");
-                });
+        #     checkDataBase(requestid, dialogid,callerid)
+        #         .then(function(results) {
+        #             $reactions.transition("/Start");
+        #         })
+        #         .catch(function(error) {
+        #             $reactions.answer("Здравствуйте! Я бот-помощник. К сожалению, на данный момент не могу обработать Ваш запрос. Перевожу на оператора — ожидайте, пожалуйста.");
+        #             $reactions.transition("/GeneralStates/ConnectionTechSupport");
+        #         });
+        go!:/Start
 
     state: Start
         script: $session.transport = $request.rawRequest.transport
@@ -35,22 +36,23 @@ theme: /
         go!: /Menu
         
     state: Menu
+        a:Подскажите, чем я могу Вам помочь?
         buttons:
-                "Получение кредита (временного доступа)" -> /Auth/Authorization
-        if: $session.transport === "telegram" || $session.transport === "widget" || $session.transport === "insta_official"
-            buttons:
-                "Получение кредита (временного доступа)" -" -> /Auth/Authorization
-                "Не работает интернет или телевидение" 
-                "Подключение к интернету или телевидению" 
-                "Оплатить услуги" 
-                "Узнать баланс лицевого счеьта" 
-        else:
-            script:
-                if($session.transport === "external") {
-                    $reactions.answer("Подскажите, чем я могу Вам помочь? | [Временный доступ] | [Технические неполадки] | [Подключение новых услуг] | [Оплата услуг] | [Узнать баланс ЛС]");
-                } else { 
-                    $reactions.answer("1 - Получение кредита (временного доступа)\n2 - Не работает интернет или телевидение\n3 - Подключение к интернету или телевидению\n4 - Оплатить услуги\n5 - Узнать баланс лицевого счета");
-                }
+            "Получение кредита (временного доступа)" -> /Auth/Authorization
+        # if: $session.transport === "telegram" || $session.transport === "widget" || $session.transport === "insta_official"
+        #     buttons:
+        #         "Получение кредита (временного доступа)" -" -> /Auth/Authorization
+        #         "Не работает интернет или телевидение" 
+        #         "Подключение к интернету или телевидению" 
+        #         "Оплатить услуги" 
+        #         "Узнать баланс лицевого счеьта" 
+        # else:
+        #     script:
+        #         if($session.transport === "external") {
+        #             $reactions.answer("Подскажите, чем я могу Вам помочь? | [Временный доступ] | [Технические неполадки] | [Подключение новых услуг] | [Оплата услуг] | [Узнать баланс ЛС]");
+        #         } else { 
+        #             $reactions.answer("1 - Получение кредита (временного доступа)\n2 - Не работает интернет или телевидение\n3 - Подключение к интернету или телевидению\n4 - Оплатить услуги\n5 - Узнать баланс лицевого счета");
+        #         }
             
         state: CatchMenu
             q:$ConnectInternetOrTV

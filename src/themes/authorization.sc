@@ -70,41 +70,44 @@ theme: /Auth
         buttons:
             "Я не знаю/не помню свой ЛС" -" -> /Auth/SearchByPhone
             
-        state:ConfirmAddress
+        state: ConfirmAddress
             q: * @duckling.number *
             script:
-                $session.account = ($parseTree["_duckling.number"]);
+                $session.account = $parseTree["_duckling.number"];
                 var callerid = $session.callerid;
                 var requestid = $context.request.questionId;
                 var dialogid = $context.sessionId;
-                var account = $session.account
-                
+                var account = $session.account;
+        
                 searchacc(callerid, requestid, dialogid, account).then(function(results) {
                     if (!results) {
                         log("Ошибка при выполнении запроса.");
                         $temp.Error = true;
                         return;
                     }
-                    
-                    if (results.length === 0) {
+        
+                    if (Object.prototype.toString.call(results) === '[object Array]' && results.length === 0) {
                         log("Нет данных для отображения.");
                         $temp.noResults = true;
                         return;
                     }
-                
+        
                     $session.searchResults = results;
                     log("//// RESULTS1 " + toPrettyString($session.searchResults));
-                })
+        
+                    var result = AdressesOutput(results);
+                    log("//// result " + toPrettyString(result));
+        
+                    if (Object.prototype.toString.call(result.addresses) === '[object Array]') {
+                        $reactions.answer("В базе для данного ФИО указано несколько адресов подключения. Выберите, пожалуйста, нужный.\n\n");
+                    } else {
+                        $reactions.answer("В базе для данного ФИО указан адрес " + result.addresses + ". Данная информация актуальна?");
+                    }
+        
+                    $reactions.buttons(result.buttons);
+                });
 
-            scriptEs6:
-                const searchResults = $session.searchResults;
-                const result = addresses.AdressesOutput(searchResults);
-                if (Array.isArray(result.addresses)) {
-                    $reactions.answer("В базе для данного ФИО указано несколько адресов подключения. Выберите, пожалуйста, нужный.\n" + ("\n"));
-                } else {
-                    $reactions.answer("В базе для данного ФИО указан адрес " + result.addresses + ". Данная информация актуальна?");
-                }
-                $reactions.buttons(result.buttons);
+
                 
         
     state:SearchByPhone
