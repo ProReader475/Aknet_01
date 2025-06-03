@@ -22,5 +22,3 @@ require: themes/generalStates.sc
 require: themes/commonDiagnostics.sc
 
 require: scripts/addressSelection.js
-    # type = scriptEs6
-    # name = addresses
