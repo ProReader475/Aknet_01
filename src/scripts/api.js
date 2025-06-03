@@ -6,6 +6,10 @@ function searchacc(callerid, requestid, dialogid, account) {
         dialogid: dialogid
     };
 
+    if (account !== undefined) {
+        payload.account = account;
+    }
+
 
     log("///1234 Сформированный payload: " + JSON.stringify(payload));
 
@@ -21,25 +25,23 @@ function searchacc(callerid, requestid, dialogid, account) {
             var data = response.data;
 
             if (!data || Object.keys(data).length === 0) {
-                log("////---Ничего не найдено по указанному аккаунту.");
-                return null;
+                log("////---Пустой результат от API");
+                return { status: "empty", customers: [] };
             }
 
-            // Преобразуем объект вида { "2099662": {...}, "2383017": {...} } в массив
             var customers = Object.keys(data).map(function(key) {
                 var entry = data[key];
-                entry.id = parseInt(key); // добавляем id в сам объект
+                entry.id = parseInt(key);
                 return entry;
             });
 
-            return customers;
+            return { status: "ok", customers: customers };
         })
         .catch(function(error) {
             log("////---Ошибка при запросе: " + JSON.stringify(error));
-            return null;
+            return { status: "error", message: error };
         });
 }
-
 
 
 function checkDataBase(requestid, dialogid, callerid) {
