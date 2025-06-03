@@ -12,12 +12,12 @@ theme: /
             if($session.transport === "widget" || $session.transport === "external") {
                 $session.phone = $request.rawRequest.client.client_phone
             } 
+            $session.need_callback = $context.need_callback || false;
+            $session.requestid = $context.request.questionId;
+            $session.dialogid = $context.sessionId;
+            $session.callerid = $context.callerId || "неизвестен" ;
             
-            var requestid = $context.request.questionId;
-            var dialogid = $context.sessionId;
-            var callerid = $context.callerId || "неизвестен" ;
-            
-            checkDataBase(requestid, dialogid,callerid)
+            checkDataBase($session.requestid, $session.dialogid,$session.callerid)
                 .then(function(results) {
                     $reactions.transition("/Start");
                 })
@@ -113,20 +113,14 @@ theme: /
             a: Если у Вас появятся вопросы, буду рад пообщаться снова! До свидания!
             a: Спасибо за обращение. Всего доброго!
         script:
-            var requestid = $context.request.questionId;
-            var dialogid = $context.sessionId;
-            var callerid = $context.callerId || "неизвестен" ;
-            var need_callback = $context.need_callback || false;
             var history = $jsapi.chatHistory();
             var context = parseChatHistory(history);
-            endChat(requestid, dialogid,callerid,need_callback,context)
+            endChat($session.requestid, $session.dialogid,$session.callerid,$session.need_callback,context)
                 .then(function(results) {
-                    $reactions.answer("Успешно записал");
                     $jsapi.stopSession();
                     
                 })
                 .catch(function(error) {
-                    $reactions.answer("НЕУУспешно записал");
                     $jsapi.stopSession();
                 });
             
