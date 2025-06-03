@@ -19,7 +19,7 @@ theme: /
             
             checkDataBase(requestid, dialogid,callerid)
                 .then(function(results) {
-                    $reactions.transition("/CommonDiagnostics/CommonDiagnostic");
+                    $reactions.transition("/Start");
                 })
                 .catch(function(error) {
                     $reactions.answer("Здравствуйте! Я бот-помощник. К сожалению, на данный момент не могу обработать Ваш запрос. Перевожу на оператора — ожидайте, пожалуйста.");
