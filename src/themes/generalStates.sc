@@ -42,6 +42,7 @@ theme: /GeneralStates
     state: ConnectionTechSupport
         intent: /ДоступДляДругого
         a: Перевожу Вас на оператора. Пожалуйста, ожидайте и не выходите из чата.
+
         scriptEs6:
             $response.replies = $response.replies || [];
             $response.replies.push({
@@ -49,6 +50,32 @@ theme: /GeneralStates
                 appendCloseChatButton: false,
                 destination: "test_2"
             });
+
+        script:
+            
+            $session.stateCountInARow = $session.stateCountInARow || 0;
+            $session.stateCountInARow += 1;
+        if: $session.stateCountInARow < 2
+        script:
+            var history = $jsapi.chatHistory();
+            var context = parseChatHistory(history);
+            endChat($session.requestid, $session.dialogid, $session.callerid, $session.need_callback,context)
+                .then(function(results) {
+                    log("///////////////////////////////////////////RAVLASFASO");
+                    $response.replies = $response.replies || [];
+                    $response.replies.push({
+                        type: "switch",
+                        firstMessage: $jsapi.chatHistory(),
+                        appendCloseChatButton: false,
+                        destination: "test_2",
+                        lastMessage: "Ждем вас снова!"
+                    });
+                })
+                .catch(function(error) {
+                    $reactions.answer("Возникла техническая ошибка. Напишите нам, пожалуйста, чуть позже.");
+                    $reactions.transition("/SomethingElse");
+                });
+
 
             
     state: FileEvent || noContext = true 

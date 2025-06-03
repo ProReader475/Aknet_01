@@ -119,3 +119,82 @@ function endChat(requestid, dialogid,callerid, need_callback,context) {
             return null;
         });
 }
+
+function commonprob(requestid, dialogid) {
+    var apiUrl = "https://testbot.softai.kg/probe/common";
+    var payload = {
+        requestid: requestid,
+        dialogid: dialogid
+    };
+
+    var options = {
+        body: JSON.stringify(payload),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    };
+
+    log("URL запроса: " + apiUrl);
+    log("Заголовки запроса: " + JSON.stringify(options.headers));
+    log("Тело запроса: " + options.body);
+
+    return $http.post(apiUrl, options)
+        .then(function(response) {
+            log("Ответ от сервера: " + JSON.stringify(response));
+            return response.data; // Важно: возвращаем только нужные данные
+        })
+        .catch(function(error) {
+            log("/// Ошибка при запросе: " + JSON.stringify(error));
+
+            if (error.response) {
+                log("/// Код ошибки: " + error.response.status);
+                log("/// Ответ от сервера: " + JSON.stringify(error.response.data));
+            } else if (error.code === 'ECONNREFUSED') {
+                log("Ошибка соединения с сервером");
+            } else {
+                log("/// Ошибка сети или сервер недоступен");
+            }
+
+            return null; // Возвращаем null в случае ошибки
+        });
+}
+function getCustomerInfo(requestid, dialogid, callerid, account) {
+    var apiUrl = "https://testbot.softai.kg/customer/get";
+    var payload = {
+        requestid: requestid,
+        dialogid: dialogid,
+        callerid: callerid,
+        account: account
+    };
+
+    var options = {
+        body: JSON.stringify(payload),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    };
+
+    log("URL запроса: " + apiUrl);
+    log("Заголовки запроса: " + JSON.stringify(options.headers));
+    log("Тело запроса: " + options.body);
+
+    return $http.post(apiUrl, options)
+        .then(function(response) {
+            log("Ответ от customer/get: " + JSON.stringify(response));
+            return response.data; // возвращаем customer
+        })
+        .catch(function(error) {
+            log("Ошибка запроса customer/get: " + JSON.stringify(error));
+
+            if (error.response) {
+                log("Код ошибки: " + error.response.status);
+                log("Ответ: " + JSON.stringify(error.response.data));
+            } else if (error.code === 'ECONNREFUSED') {
+                log("Ошибка соединения с сервером");
+            } else {
+                log("Сетевая ошибка или сервер недоступен");
+            }
+
+            return null;
+        });
+}
