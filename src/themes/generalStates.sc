@@ -42,6 +42,15 @@ theme: /GeneralStates
     state: ConnectionTechSupport
         intent: /ДоступДляДругого
         a: Перевожу Вас на оператора. Пожалуйста, ожидайте и не выходите из чата.
+
+        scriptEs6:
+            $response.replies = $response.replies || [];
+            $response.replies.push({
+                type: "switch",
+                appendCloseChatButton: false,
+                destination: "test_2"
+            });
+
         script:
             
             $session.stateCountInARow = $session.stateCountInARow || 0;
@@ -67,12 +76,7 @@ theme: /GeneralStates
                     $reactions.transition("/SomethingElse");
                 });
 
-    
-        state: Return
-            event!: livechatFinished
-            a: Диалог с оператором завершён, на связи снова бот-помощник.
-            go!: /SomethingElse
-        
+
             
     state: FileEvent || noContext = true 
         event!: fileEvent 
@@ -137,6 +141,11 @@ theme: /GeneralStates
         intent: /ЗаявкаНаПерерасчет
         a: Понял Вас.
         go!: /GeneralStates/ConnectionTechSupport   
-    
+        
+    state: Return
+        event!: livechatFinished
+        a: Диалог с оператором завершён, на связи снова бот-помощник.
+        go!: /SomethingElse
+        
         
     
