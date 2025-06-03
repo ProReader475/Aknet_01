@@ -21,5 +21,5 @@ require: themes/authorization.sc
 require: themes/generalStates.sc
 
 require: scripts/addressSelection.js
-    type = scriptEs6
-    name = addresses
+    # type = scriptEs6
+    # name = addresses
