@@ -74,43 +74,105 @@ theme: /Auth
             q: * @duckling.number *
             script:
                 $session.account = $parseTree["_duckling.number"];
-                var callerid = $session.callerid
+                var callerid = $session.callerid;
                 var requestid = $context.request.questionId;
                 var dialogid = $context.sessionId;
                 var account = $session.account;
-        
-                searchacc(callerid, requestid, dialogid, account).then(function(results) {
-                    if (!results) {
+            
+                searchacc(callerid, requestid, dialogid, account).then(function(result) {
+                    if (!result || result.status === "error") {
                         log("Ошибка при выполнении запроса.");
-                        $temp.Error = true;
+                        $reactions.transition("/Auth/AskAccountNumber/ConfirmAddress/Error");
                         return;
                     }
-        
-                    if (Object.prototype.toString.call(results) === '[object Array]' && results.length === 0) {
+            
+                    if (result.status === "empty") {
                         log("Нет данных для отображения.");
-                        $temp.noResults = true;
+                        $reactions.answer("Такой счёт в базе не нашёлся.");
+                        $reactions.transition("/Auth/SearchByPhone");
                         return;
                     }
-        
-                    $session.searchResults = results;
+            
+                    $session.searchResults = result.customers;
                     log("//// RESULTS1 " + toPrettyString($session.searchResults));
-        
-                    var result = AdressesOutput(results);
-                    log("//// result " + toPrettyString(result));
-        
-                    if (Object.prototype.toString.call(result.addresses) === '[object Array]') {
-                        $reactions.answer("В базе для данного ФИО указано несколько адресов подключения. Выберите, пожалуйста, нужный.\n\n");
-                    } else {
-                        $reactions.answer("В базе для данного ФИО указан адрес " + result.addresses + ". Данная информация актуальна?");
-                    }
-        
-                    $reactions.buttons(result.buttons);
+            
+                    var output = AdressesOutput($session.searchResults);
+                    log("//// result " + toPrettyString(output));
+            
+                    $reactions.answer("В базе указан адрес " + output.addresses + ". Данная информация актуальна?");
+                    $reactions.buttons(output.buttons);
                 });
-
-
+            
+            state:Agree
+                q: * $agree *
+                go!:/Auth/SuccessfulAuthorization
+                    
+            state:Disagree
+                q: * $disagree *
+                go!:/Auth/SearchByPhone
                 
+            state:Error
+                script:
+                    $session.stateCounterInARow++
+        
+                if: $session.stateCounterInARow < 2
+                    go!:/Auth/AskAccountNumber/ConfirmAddress
+                else:
+                    a:go! /AnyError
         
     state:SearchByPhone
+        a:Попробую поискать подходящие счета по номеру телефона.
+        script:
+            $session.account = $parseTree["_duckling.number"];
+            var callerid = $session.callerid;
+            var requestid = $context.request.questionId;
+            var dialogid = $context.sessionId;
+        
+            searchacc(callerid, requestid, dialogid).then(function(result) {
+                if (!result || result.status === "error") {
+                    log("Ошибка при выполнении запроса.");
+                    $reactions.transition("/Auth/SearchByPhone/Error");
+                    return;
+                }
+        
+                if (result.status === "empty") {
+                    log("Нет данных для отображения.");
+                    $reactions.answer("Такой счёт в базе не нашёлся.");
+                    $reactions.answer("go! /ConnectionTechSupport");
+                    return;
+                }
+        
+                $session.searchResults = result.customers;
+                log("//// RESULTS1 " + toPrettyString($session.searchResults));
+        
+                var output = AdressesOutput($session.searchResults);
+                log("//// result " + toPrettyString(output));
+        
+                if (Array.isArray(output.addresses)) {
+                    $reactions.answer("Выберите нужный адрес из списка:");
+                } else {
+                    $reactions.answer("В базе указан адрес " + output.addresses + ". Данная информация актуальна?");
+                }
+                $reactions.buttons(output.buttons);
+            });
+        
+        state:Agree
+            q: * $agree *
+            go!:/Auth/SuccessfulAuthorization
+                
+        state:Disagree
+            q: * $disagree *
+            go!:/Auth/SearchByPhone
+            
+        state:Error
+            script:
+                $session.stateCounterInARow++
+    
+            if: $session.stateCounterInARow < 2
+                go!:/Auth/SearchByPhone
+            else:
+                a:go! /AnyError
+            
         
     state:SearchByName
     
