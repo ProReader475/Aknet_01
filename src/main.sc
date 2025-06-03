@@ -12,18 +12,18 @@ theme: /
             if($session.transport === "widget" || $session.transport === "external") {
                 $session.phone = $request.rawRequest.client.client_phone
             } 
-            $session.need_callback = $context.need_callback || false;
-            $session.requestid = $context.request.questionId;
-            $session.dialogid = $context.sessionId;
-            $session.callerid = $context.callerId || "неизвестен" ;
             
-            checkDataBase($session.requestid, $session.dialogid,$session.callerid)
+            var requestid = $context.request.questionId;
+            var dialogid = $context.sessionId;
+            var callerid = $context.callerId || "неизвестен" ;
+            
+            checkDataBase(requestid, dialogid,callerid)
                 .then(function(results) {
                     $reactions.transition("/Start");
                 })
                 .catch(function(error) {
                     $reactions.answer("Здравствуйте! Я бот-помощник. К сожалению, на данный момент не могу обработать Ваш запрос. Перевожу на оператора — ожидайте, пожалуйста.");
-                    $reactions.transition("/GeneralStates/ConnectionTechSupport");
+                    $reactions.transition("/Start");
                 });
 
     state: Start
@@ -113,14 +113,20 @@ theme: /
             a: Если у Вас появятся вопросы, буду рад пообщаться снова! До свидания!
             a: Спасибо за обращение. Всего доброго!
         script:
+            var requestid = $context.request.questionId;
+            var dialogid = $context.sessionId;
+            var callerid = $context.callerId || "неизвестен" ;
+            var need_callback = $context.need_callback || false;
             var history = $jsapi.chatHistory();
             var context = parseChatHistory(history);
-            endChat($session.requestid, $session.dialogid,$session.callerid,$session.need_callback,context)
+            endChat(requestid, dialogid,callerid,need_callback,context)
                 .then(function(results) {
+                    $reactions.answer("Успешно записал");
                     $jsapi.stopSession();
                     
                 })
                 .catch(function(error) {
+                    $reactions.answer("НЕУУспешно записал");
                     $jsapi.stopSession();
                 });
             

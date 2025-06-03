@@ -74,7 +74,7 @@ theme: /Auth
             q: * @duckling.number *
             script:
                 $session.account = $parseTree["_duckling.number"];
-                var callerid = $session.callerid;
+                var callerid = $session.callerid
                 var requestid = $context.request.questionId;
                 var dialogid = $context.sessionId;
                 var account = $session.account;
