@@ -5,10 +5,7 @@ function searchacc(callerid, requestid, dialogid, account) {
         requestid: requestid,
         dialogid: dialogid
     };
-    
-    // if (account !== undefined) {
-    //     payload.account = account;
-    // }
+
 
     log("///1234 Сформированный payload: " + JSON.stringify(payload));
 
@@ -126,6 +123,7 @@ function commonprob(requestid, dialogid) {
         requestid: requestid,
         dialogid: dialogid
     };
+    
 
     var options = {
         body: JSON.stringify(payload),
@@ -141,7 +139,7 @@ function commonprob(requestid, dialogid) {
     return $http.post(apiUrl, options)
         .then(function(response) {
             log("Ответ от сервера: " + JSON.stringify(response));
-            return response.data; // Важно: возвращаем только нужные данные
+            return response; // Важно: возвращаем только нужные данные
         })
         .catch(function(error) {
             log("/// Ошибка при запросе: " + JSON.stringify(error));
@@ -198,3 +196,43 @@ function getCustomerInfo(requestid, dialogid, callerid, account) {
             return null;
         });
 }
+function probeEquipment(requestid, dialogid, account) {
+    var apiUrl = "https://testbot.softai.kg/probe/equipment";
+    var payload = {
+        requestid: requestid,
+        dialogid: dialogid,
+        account: account
+    };
+
+    var options = {
+        body: JSON.stringify(payload),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    };
+
+    log("URL запроса: " + apiUrl);
+    log("Заголовки запроса: " + JSON.stringify(options.headers));
+    log("Тело запроса: " + options.body);
+
+    return $http.post(apiUrl, options)
+        .then(function(response) {
+            log("Ответ от probe/equipment: " + JSON.stringify(response));
+            return response.data; // ожидаем { status, reason, recovery_hours }
+        })
+        .catch(function(error) {
+            log("Ошибка запроса probe/equipment: " + JSON.stringify(error));
+
+            if (error.response) {
+                log("Код ошибки: " + error.response.status);
+                log("Ответ: " + JSON.stringify(error.response.data));
+            } else if (error.code === 'ECONNREFUSED') {
+                log("Ошибка соединения с сервером");
+            } else {
+                log("Сетевая ошибка или сервер недоступен");
+            }
+
+            return null;
+        });
+}
+
