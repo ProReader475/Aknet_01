@@ -80,62 +80,28 @@ theme: /CommonDiagnostics
         script:
             var requestid = $context.request.questionId;
             var dialogid = $context.sessionId;
-            var callerid = $context.request.callerId;
             var account = $session.account || null;
-            $session.userAuthorized = true;
-            var reason = "Не работает интернет";
-            $session.reason = reason;
     
-            if ($session.userAuthorized === true) {
-                getCustomerInfo(requestid, dialogid, callerid, account)
-                    .then(function(customer) {
-                        if (!customer) {
-                            $reactions.answer("Ошибка получения данных. Повторите позже.");
-                            $reactions.transition("/CommonDiagnostics/CommonDiagnostic/Error");
-                            return;
-                        }
-    
-                        log("Получен customer: " + JSON.stringify(customer));
-    
-                        if (customer.debt > 0) {
-                            $reactions.answer("У вас есть задолженность.");
-                            $reactions.transition("/Balance");
-                            return;
-                        }
-    
-                        // Если долга нет — продолжаем диагностику оборудования
-                        probeEquipment(requestid, dialogid, account)
-                            .then(function(result) {
-                                if (!result) {
-                                    $reactions.answer("Ошибка при диагностике оборудования.");
-                                    $reactions.transition("/CommonDiagnostics/CommonDiagnostic/Error");
-                                    return;
-                                }
-    
-                                log("Результат диагностики оборудования: " + JSON.stringify(result));
-    
-                                if (result.status === "malfunction") {
-                                    $reactions.answer("Обнаружена неисправность. Переход к специалисту.");
-                                    $reactions.transition("/SwitchIsNotResponding");
-                                } else {
-                                    $reactions.answer("Оборудование работает, соединяю с технической поддержкой.");
-                                    $reactions.transition("/СonnectionTechSupport");
-                                }
-                            })
-                            .catch(function(error) {
-                                log("Ошибка при вызове probe/equipment: " + JSON.stringify(error));
-                                $reactions.answer("Произошла ошибка при диагностике оборудования.");
-                                $reactions.transition("/CommonDiagnostics/CommonDiagnostic/Error");
-                            });
-    
-                    })
-                    .catch(function(error) {
-                        log("Ошибка при вызове customer/get: " + JSON.stringify(error));
-                        $reactions.answer("Произошла ошибка. Повторите позже.");
+            probeEquipment(requestid, dialogid, account)
+                .then(function(result) {
+                    if (!result) {
+                        $reactions.answer("Ошибка при диагностике оборудования.");
                         $reactions.transition("/CommonDiagnostics/CommonDiagnostic/Error");
-                    });
+                        return;
+                    }
     
-            } else {
-                $reactions.answer("Пожалуйста, авторизуйтесь, чтобы продолжить.");
-                $reactions.transition("/Auth/Authorization");
-            }
+                    log("Результат диагностики оборудования: " + JSON.stringify(result));
+    
+                    if (result.status === "malfunction") {
+                        $reactions.answer("Обнаружена неисправность. Переход к специалисту.");
+                        $reactions.transition("/SwitchIsNotResponding");
+                    } else {
+                        $reactions.answer("Оборудование работает, соединяю с технической поддержкой.");
+                        $reactions.transition("/СonnectionTechSupport");
+                    }
+                })
+                .catch(function(error) {
+                    log("Ошибка при вызове probe/equipment: " + JSON.stringify(error));
+                    $reactions.answer("Произошла ошибка при диагностике оборудования.");
+                    $reactions.transition("/CommonDiagnostics/CommonDiagnostic/Error");
+                });
