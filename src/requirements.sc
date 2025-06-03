@@ -19,6 +19,7 @@ require: entities/regionsEntity/regions.sc
 
 require: themes/authorization.sc
 require: themes/generalStates.sc
+require: themes/commonDiagnostics.sc
 
 require: scripts/addressSelection.js
     # type = scriptEs6

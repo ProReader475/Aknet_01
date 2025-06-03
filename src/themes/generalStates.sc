@@ -52,11 +52,14 @@ theme: /GeneralStates
             var context = parseChatHistory(history);
             endChat($session.requestid, $session.dialogid, $session.callerid, $session.need_callback,context)
                 .then(function(results) {
+                    log("///////////////////////////////////////////RAVLASFASO");
                     $response.replies = $response.replies || [];
                     $response.replies.push({
                         type: "switch",
+                        firstMessage: $jsapi.chatHistory(),
                         appendCloseChatButton: false,
-                        destination: "test_2"
+                        destination: "test_2",
+                        lastMessage: "Ждем вас снова!"
                     });
                 })
                 .catch(function(error) {
