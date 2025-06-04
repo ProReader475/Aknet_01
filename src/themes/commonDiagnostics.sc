@@ -113,12 +113,11 @@ theme: /CommonDiagnostics
             var reason = $session.reason || "неизвестна";
             var recoveryHours = $session.recovery_hours;
         
-            $reactions.say("Нам уже известно о проблеме, и наши специалисты работают над её решением. Причина сбоя: " + reason + ".");
+            $reactions.answer("Нам уже известно о проблеме, и наши специалисты работают над её решением. Причина сбоя: " + reason + ".");
         
             if (recoveryHours) {
-                $reactions.say("Примерное время устранения неполадок: " + recoveryHours + " ч.");
+                $reactions.answer("Примерное время устранения неполадок: " + recoveryHours + " ч.");
                         $reactions.transition("/CommonDiagnostics/Error");
-                    });
             } else {
                 $reactions.answer("К сожалению, не могу сообщить точные сроки устранения неполадок.");
             }
