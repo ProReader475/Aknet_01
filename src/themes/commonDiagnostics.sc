@@ -25,7 +25,6 @@ theme: /CommonDiagnostics
                     log("//// Глобальная ошибка: " + JSON.stringify(error));
                     $reactions.answer("Произошла ошибка. Проверьте логи.");
                 });
-                
         state: Error
             
                 script:
@@ -118,6 +117,8 @@ theme: /CommonDiagnostics
         
             if (recoveryHours) {
                 $reactions.say("Примерное время устранения неполадок: " + recoveryHours + " ч.");
+                        $reactions.transition("/CommonDiagnostics/Error");
+                    });
             } else {
                 $reactions.answer("К сожалению, не могу сообщить точные сроки устранения неполадок.");
             }

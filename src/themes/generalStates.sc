@@ -40,36 +40,41 @@ theme: /GeneralStates
         go!: /PreviousState  
         
     state: ConnectionTechSupport
-        intent: /AccessForAnother
+        intent: /ДоступДляДругого
         a: Перевожу Вас на оператора. Пожалуйста, ожидайте и не выходите из чата.
+
+        scriptEs6:
+            $response.replies = $response.replies || [];
+            $response.replies.push({
+                type: "switch",
+                appendCloseChatButton: false,
+                destination: "test_2"
+            });
+
         script:
+            
             $session.stateCountInARow = $session.stateCountInARow || 0;
             $session.stateCountInARow += 1;
         if: $session.stateCountInARow < 2
-            script:
-                var history = $jsapi.chatHistory();
-                var context = parseChatHistory(history);
-                var requestid = $context.request.questionId;
-                var dialogid = $context.sessionId;
-                var callerid = $context.callerId || "неизвестен" ;
-                var need_callback = $context.need_callback || false;
-                endChat(requestid, dialogid, callerid, need_callback,context)
-                    .then(function(results) {
-                        $response.replies = $response.replies || [];
-                        $response.replies.push({
-                            type: "switch",
-                            firstMessage: $jsapi.chatHistory(),
-                            appendCloseChatButton: false,
-                            destination: "test_2",
-                            lastMessage: "Ждем вас снова!"
-                        });
-                        $analytics.setScenarioAction("Перевод на оператора - завершение");
-                    })
-                    .catch(function(error) {
-                        $reactions.answer("Возникла техническая ошибка. Напишите нам, пожалуйста, чуть позже.");
-                        $reactions.transition("/SomethingElse");
-                        $analytics.setScenarioAction("Ошибка перевода");
+        script:
+            var history = $jsapi.chatHistory();
+            var context = parseChatHistory(history);
+            endChat($session.requestid, $session.dialogid, $session.callerid, $session.need_callback,context)
+                .then(function(results) {
+                    log("///////////////////////////////////////////RAVLASFASO");
+                    $response.replies = $response.replies || [];
+                    $response.replies.push({
+                        type: "switch",
+                        firstMessage: $jsapi.chatHistory(),
+                        appendCloseChatButton: false,
+                        destination: "test_2",
+                        lastMessage: "Ждем вас снова!"
                     });
+                })
+                .catch(function(error) {
+                    $reactions.answer("Возникла техническая ошибка. Напишите нам, пожалуйста, чуть позже.");
+                    $reactions.transition("/SomethingElse");
+                });
 
 
             
@@ -133,7 +138,7 @@ theme: /GeneralStates
                 go!: /GeneralStates/ConnectionTechSupport
                 
     state: Recalculation
-        intent: /RecalculationRequest
+        intent: /ЗаявкаНаПерерасчет
         a: Понял Вас.
         go!: /GeneralStates/ConnectionTechSupport   
         

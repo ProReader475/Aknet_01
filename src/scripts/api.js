@@ -88,18 +88,13 @@ function endChat(requestid, dialogid,callerid, need_callback,context) {
         need_callback: need_callback,
         context:context
     };
-    log('/////////////////////чсив' + requestid)
-    log('/////////////////////чсив' + dialogid)
-    log('/////////////////////чсив' + JSON.stringify(payload))
+    log('/////////////////////' + payload)
     var options = {
         body: JSON.stringify(payload),
         headers: {
             'Content-Type': 'application/json'
         }
     };
-        log("URL запроса: " + apiUrl);
-    log("Заголовки запроса: " + JSON.stringify(options.headers));
-    log("Тело запроса: " + options.body);
 
     return $http.post(apiUrl, options)
         .then(function(response) {

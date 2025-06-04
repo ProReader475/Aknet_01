@@ -16,10 +16,9 @@ theme: /
             var requestid = $context.request.questionId;
             var dialogid = $context.sessionId;
             var callerid = $context.callerId || "неизвестен" ;
+            
             checkDataBase(requestid, dialogid,callerid)
                 .then(function(results) {
-
-                    $reactions.transition("/CommonDiagnostics/EquipmentCheck");
                     $reactions.transition("/Start");
                 })
                 .catch(function(error) {
