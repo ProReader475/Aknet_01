@@ -162,7 +162,7 @@ theme: /Auth
                 
         state:Disagree
             q: * $disagree *
-            go!:/Auth/SearchByPhone
+            go!:/Auth/SearchByName
             
         state:Error
             script:
@@ -175,6 +175,9 @@ theme: /Auth
             
         
     state:SearchByName
+        a:Пожалуйста, уточните полные фамилию, имя и отчество владельца договора.
+        script:
+            
     
     state:SearchByAddress
         
