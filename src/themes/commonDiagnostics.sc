@@ -107,6 +107,7 @@ theme: /CommonDiagnostics
                     $reactions.answer("Произошла ошибка при диагностике оборудования.");
                     $reactions.transition("/CommonDiagnostics/CommonDiagnostic/Error");
                 });
+                
     state: TicketIsAlreadyCreated
         
         script:
@@ -116,16 +117,10 @@ theme: /CommonDiagnostics
             $reactions.say("Нам уже известно о проблеме, и наши специалисты работают над её решением. Причина сбоя: " + reason + ".");
         
             if (recoveryHours) {
-              $reactions.say("Примерное время устранения неполадок: " + recoveryHours + " ч.");
+                $reactions.say("Примерное время устранения неполадок: " + recoveryHours + " ч.");
             } else {
-              $reactions.say("К сожалению, не могу сообщить точные сроки устранения неполадок.");
-                        $reactions.transition("/CommonDiagnostics/Error");
-                    });
-            } else {
-                $reactions.answer("Пожалуйста, авторизуйтесь, чтобы продолжить.");
-                $reactions.transition("/Authorization");
+                $reactions.answer("К сожалению, не могу сообщить точные сроки устранения неполадок.");
             }
-        
             $reactions.transition("/SomethingElse");
     
     state: SwitchIsNotResponding
@@ -140,6 +135,7 @@ theme: /CommonDiagnostics
             script:
                 $analytics.setScenarioAction("Перебои с элктричеством - Нет")
                 $reactions.transition("/CommonDiagnostics/EqipmentCheck");
+                
     state: EquipmentCheck
         a: Подскажите, вы сейчас находитесь рядом с оборудованием?
         state: EquipmentCheckYes
@@ -148,6 +144,6 @@ theme: /CommonDiagnostics
         state: LocationNotHome
             q: $disagree
             script:
-                $session.notReadyForProbe = true
+                $session.notReadyForProbe = true || $session.notReadyForProbe
                 $reactions.answer(" Для дальнейшего решения проблемы необходимо находиться рядом с оборудованием. Когда будете готовы к диагностике, напишите 'Готов к диагностике'.");
                 $reactions.transition("/SomethingElse"); 
