@@ -16,10 +16,9 @@ theme: /
             var requestid = $context.request.questionId;
             var dialogid = $context.sessionId;
             var callerid = $context.callerId || "неизвестен" ;
-            
             checkDataBase(requestid, dialogid,callerid)
                 .then(function(results) {
-                    $reactions.transition("/Start");
+                    $reactions.transition("/CommonDiagnostics/EquipmentCheck");
                 })
                 .catch(function(error) {
                     $reactions.answer("Здравствуйте! Я бот-помощник. К сожалению, на данный момент не могу обработать Ваш запрос. Перевожу на оператора — ожидайте, пожалуйста.");

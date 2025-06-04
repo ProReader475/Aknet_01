@@ -42,16 +42,6 @@ theme: /GeneralStates
     state: ConnectionTechSupport
         intent: /AccessForAnother
         a: Перевожу Вас на оператора. Пожалуйста, ожидайте и не выходите из чата.
-
-        # scriptEs6:
-        #     $response.replies = $response.replies || [];
-        #     $response.replies.push({
-        #         type: "switch",
-        #         appendCloseChatButton: false,
-        #         destination: "test_2"
-        #     });
-        #     $analytics.setScenarioAction("Перевод на оператора - начало");
-
         script:
             $session.stateCountInARow = $session.stateCountInARow || 0;
             $session.stateCountInARow += 1;
@@ -59,9 +49,12 @@ theme: /GeneralStates
             script:
                 var history = $jsapi.chatHistory();
                 var context = parseChatHistory(history);
-                endChat($session.requestid, $session.dialogid, $session.callerid, $session.need_callback,context)
+                var requestid = $context.request.questionId;
+                var dialogid = $context.sessionId;
+                var callerid = $context.callerId || "неизвестен" ;
+                var need_callback = $context.need_callback || false;
+                endChat(requestid, dialogid, callerid, need_callback,context)
                     .then(function(results) {
-                        log("///////////////////////////////////////////RAVLASFASO");
                         $response.replies = $response.replies || [];
                         $response.replies.push({
                             type: "switch",
