@@ -97,7 +97,5882 @@
     },
     "priority" : 0
   } ],
-  "entities" : [ ],
+  "entities" : [ {
+    "entity" : {
+      "name" : "bish_streets",
+      "enabled" : true,
+      "shared" : false,
+      "type" : "annotation",
+      "priority" : 1,
+      "noSpelling" : true,
+      "noMorph" : false,
+      "phoneticSearch" : false,
+      "fuzzySearch" : false,
+      "client" : false,
+      "hidden" : false
+    },
+    "records" : [ {
+      "type" : "synonyms",
+      "rule" : [ "16 линия" ],
+      "value" : "{\"name\":\"16 линия\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "18 линия" ],
+      "value" : "{\"name\":\"18 линия\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "50 лет победы" ],
+      "value" : "{\"name\":\"50 лет победы\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "9 го января" ],
+      "value" : "{\"name\":\"9 го января\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "9 –го января" ],
+      "value" : "{\"name\":\"9 –го января\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "9го января" ],
+      "value" : "{\"name\":\"9го января\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абаканская" ],
+      "value" : "{\"name\":\"Абаканская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абая" ],
+      "value" : "{\"name\":\"Абая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абдраева" ],
+      "value" : "{\"name\":\"Абдраева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абдраимова" ],
+      "value" : "{\"name\":\"Абдраимова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абдрахманова" ],
+      "value" : "{\"name\":\"Абдрахманова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абдумомунова" ],
+      "value" : "{\"name\":\"Абдумомунова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абдыкадырова" ],
+      "value" : "{\"name\":\"Абдыкадырова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абдымомунова" ],
+      "value" : "{\"name\":\"Абдымомунова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Авангардный" ],
+      "value" : "{\"name\":\"Авангардный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Адырская" ],
+      "value" : "{\"name\":\"Адырская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Адырский" ],
+      "value" : "{\"name\":\"Адырский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Адырский «А»" ],
+      "value" : "{\"name\":\"Адырский «А»\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Адышева" ],
+      "value" : "{\"name\":\"Адышева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ажыбек Баатыра" ],
+      "value" : "{\"name\":\"Ажыбек Баатыра\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Азаттык" ],
+      "value" : "{\"name\":\"Азаттык\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Азовская" ],
+      "value" : "{\"name\":\"Азовская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ай - Кол" ],
+      "value" : "{\"name\":\"Ай - Кол\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Айдаралиева" ],
+      "value" : "{\"name\":\"Айдаралиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Айни" ],
+      "value" : "{\"name\":\"Айни\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Айтматова" ],
+      "value" : "{\"name\":\"Айтматова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ак - Жолтой" ],
+      "value" : "{\"name\":\"Ак - Жолтой\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Акбуринский" ],
+      "value" : "{\"name\":\"Акбуринский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Акмуз" ],
+      "value" : "{\"name\":\"Акмуз\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ак-Сайская" ],
+      "value" : "{\"name\":\"Ак-Сайская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Акталинский" ],
+      "value" : "{\"name\":\"Акталинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Актерекский" ],
+      "value" : "{\"name\":\"Актерекский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Актюбинский" ],
+      "value" : "{\"name\":\"Актюбинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ала - Букинская" ],
+      "value" : "{\"name\":\"Ала - Букинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ала - Тоо" ],
+      "value" : "{\"name\":\"Ала - Тоо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ала-Арчинская" ],
+      "value" : "{\"name\":\"Ала-Арчинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алайский" ],
+      "value" : "{\"name\":\"Алайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Аламединский" ],
+      "value" : "{\"name\":\"Аламединский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Аларчинская" ],
+      "value" : "{\"name\":\"Аларчинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Александровский" ],
+      "value" : "{\"name\":\"Александровский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алма- Атинская" ],
+      "value" : "{\"name\":\"Алма- Атинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алтайский" ],
+      "value" : "{\"name\":\"Алтайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алтымышева" ],
+      "value" : "{\"name\":\"Алтымышева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алтымышова" ],
+      "value" : "{\"name\":\"Алтымышова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алтын - Бешик" ],
+      "value" : "{\"name\":\"Алтын - Бешик\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алыкулова" ],
+      "value" : "{\"name\":\"Алыкулова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Альпинская" ],
+      "value" : "{\"name\":\"Альпинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Аммосова" ],
+      "value" : "{\"name\":\"Аммосова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Амосова" ],
+      "value" : "{\"name\":\"Амосова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Амурский" ],
+      "value" : "{\"name\":\"Амурский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ананьева" ],
+      "value" : "{\"name\":\"Ананьева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ангарский" ],
+      "value" : "{\"name\":\"Ангарский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Андижанская" ],
+      "value" : "{\"name\":\"Андижанская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Андижанский" ],
+      "value" : "{\"name\":\"Андижанский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Араванская" ],
+      "value" : "{\"name\":\"Араванская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Аральский" ],
+      "value" : "{\"name\":\"Аральский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Арасанский" ],
+      "value" : "{\"name\":\"Арасанский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Арзамасская" ],
+      "value" : "{\"name\":\"Арзамасская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Армавирская" ],
+      "value" : "{\"name\":\"Армавирская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Армейская" ],
+      "value" : "{\"name\":\"Армейская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Артемовская" ],
+      "value" : "{\"name\":\"Артемовская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Архангельская" ],
+      "value" : "{\"name\":\"Архангельская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Асаналиева" ],
+      "value" : "{\"name\":\"Асаналиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Астраханская" ],
+      "value" : "{\"name\":\"Астраханская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Астраханский" ],
+      "value" : "{\"name\":\"Астраханский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Атбасарский" ],
+      "value" : "{\"name\":\"Атбасарский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ат-Башинский" ],
+      "value" : "{\"name\":\"Ат-Башинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ауэзова" ],
+      "value" : "{\"name\":\"Ауэзова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ахунбаева" ],
+      "value" : "{\"name\":\"Ахунбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ашхабадская" ],
+      "value" : "{\"name\":\"Ашхабадская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ашхабадский" ],
+      "value" : "{\"name\":\"Ашхабадский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Аэродромный" ],
+      "value" : "{\"name\":\"Аэродромный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Б. Баатыра" ],
+      "value" : "{\"name\":\"Б. Баатыра\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бабушкин" ],
+      "value" : "{\"name\":\"Бабушкин\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Багишский" ],
+      "value" : "{\"name\":\"Багишский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Багратиона" ],
+      "value" : "{\"name\":\"Багратиона\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Баетова" ],
+      "value" : "{\"name\":\"Баетова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Базар-Курганская" ],
+      "value" : "{\"name\":\"Базар-Курганская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Базарный" ],
+      "value" : "{\"name\":\"Базарный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Байтик Баатыра" ],
+      "value" : "{\"name\":\"Байтик Баатыра\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бакаева" ],
+      "value" : "{\"name\":\"Бакаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бакинская" ],
+      "value" : "{\"name\":\"Бакинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бакинский" ],
+      "value" : "{\"name\":\"Бакинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Балтагулова" ],
+      "value" : "{\"name\":\"Балтагулова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Балтийская" ],
+      "value" : "{\"name\":\"Балтийская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Балханский" ],
+      "value" : "{\"name\":\"Балханский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Балык-Кумара" ],
+      "value" : "{\"name\":\"Балык-Кумара\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Балыкчинский" ],
+      "value" : "{\"name\":\"Балыкчинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Барнаульский" ],
+      "value" : "{\"name\":\"Барнаульский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Баррикадный" ],
+      "value" : "{\"name\":\"Баррикадный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Барскаунский" ],
+      "value" : "{\"name\":\"Барскаунский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Баткенский" ],
+      "value" : "{\"name\":\"Баткенский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Батыра" ],
+      "value" : "{\"name\":\"Батыра\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Баха" ],
+      "value" : "{\"name\":\"Баха\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Баялинова Касымалы" ],
+      "value" : "{\"name\":\"Баялинова Касымалы\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Беговой" ],
+      "value" : "{\"name\":\"Беговой\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бейшеналиева" ],
+      "value" : "{\"name\":\"Бейшеналиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бектенова" ],
+      "value" : "{\"name\":\"Бектенова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Белгородская" ],
+      "value" : "{\"name\":\"Белгородская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Белозерский" ],
+      "value" : "{\"name\":\"Белозерский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Беломорский" ],
+      "value" : "{\"name\":\"Беломорский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Белорусская" ],
+      "value" : "{\"name\":\"Белорусская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бельская" ],
+      "value" : "{\"name\":\"Бельская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Береговая" ],
+      "value" : "{\"name\":\"Береговая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Береговой" ],
+      "value" : "{\"name\":\"Береговой\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Березовая" ],
+      "value" : "{\"name\":\"Березовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Берликский" ],
+      "value" : "{\"name\":\"Берликский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Беш-Кунгейский" ],
+      "value" : "{\"name\":\"Беш-Кунгейский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Библиотечная" ],
+      "value" : "{\"name\":\"Библиотечная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бийский" ],
+      "value" : "{\"name\":\"Бийский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Боконбаева" ],
+      "value" : "{\"name\":\"Боконбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Болотная" ],
+      "value" : "{\"name\":\"Болотная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Больничный" ],
+      "value" : "{\"name\":\"Больничный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Боомский" ],
+      "value" : "{\"name\":\"Боомский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Боровской" ],
+      "value" : "{\"name\":\"Боровской\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бородина" ],
+      "value" : "{\"name\":\"Бородина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Боталиева" ],
+      "value" : "{\"name\":\"Боталиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ботанический" ],
+      "value" : "{\"name\":\"Ботанический\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Братская" ],
+      "value" : "{\"name\":\"Братская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бреславский" ],
+      "value" : "{\"name\":\"Бреславский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Брестская" ],
+      "value" : "{\"name\":\"Брестская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бронированная" ],
+      "value" : "{\"name\":\"Бронированная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Брянская" ],
+      "value" : "{\"name\":\"Брянская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Буденного" ],
+      "value" : "{\"name\":\"Буденного\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Булакский" ],
+      "value" : "{\"name\":\"Булакский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бурулдайская" ],
+      "value" : "{\"name\":\"Бурулдайская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Буурдинская" ],
+      "value" : "{\"name\":\"Буурдинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бухарская" ],
+      "value" : "{\"name\":\"Бухарская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бухарский" ],
+      "value" : "{\"name\":\"Бухарский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Валдайская" ],
+      "value" : "{\"name\":\"Валдайская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Варшавская" ],
+      "value" : "{\"name\":\"Варшавская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Васильева" ],
+      "value" : "{\"name\":\"Васильева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Верхний" ],
+      "value" : "{\"name\":\"Верхний\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Весёлая" ],
+      "value" : "{\"name\":\"Весёлая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Веселый" ],
+      "value" : "{\"name\":\"Веселый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Вилюйский" ],
+      "value" : "{\"name\":\"Вилюйский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Виноградная" ],
+      "value" : "{\"name\":\"Виноградная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Виноградный" ],
+      "value" : "{\"name\":\"Виноградный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Витебская" ],
+      "value" : "{\"name\":\"Витебская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Витебский" ],
+      "value" : "{\"name\":\"Витебский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Владимировская" ],
+      "value" : "{\"name\":\"Владимировская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Власова" ],
+      "value" : "{\"name\":\"Власова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Водопроводная" ],
+      "value" : "{\"name\":\"Водопроводная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Волгоградская" ],
+      "value" : "{\"name\":\"Волгоградская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Волжский" ],
+      "value" : "{\"name\":\"Волжский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Волкова" ],
+      "value" : "{\"name\":\"Волкова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Вологодский" ],
+      "value" : "{\"name\":\"Вологодский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Волоколамская" ],
+      "value" : "{\"name\":\"Волоколамская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Волочаевский" ],
+      "value" : "{\"name\":\"Волочаевский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Волховская" ],
+      "value" : "{\"name\":\"Волховская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Воркутинская" ],
+      "value" : "{\"name\":\"Воркутинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Воровского" ],
+      "value" : "{\"name\":\"Воровского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Воронежская" ],
+      "value" : "{\"name\":\"Воронежская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Восточная" ],
+      "value" : "{\"name\":\"Восточная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Вятская" ],
+      "value" : "{\"name\":\"Вятская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гагарина" ],
+      "value" : "{\"name\":\"Гагарина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гаражная" ],
+      "value" : "{\"name\":\"Гаражная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гастелло" ],
+      "value" : "{\"name\":\"Гастелло\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гатчинский" ],
+      "value" : "{\"name\":\"Гатчинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гвардейский" ],
+      "value" : "{\"name\":\"Гвардейский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Геологический" ],
+      "value" : "{\"name\":\"Геологический\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Герцена" ],
+      "value" : "{\"name\":\"Герцена\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гоголя" ],
+      "value" : "{\"name\":\"Гоголя\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гончарная" ],
+      "value" : "{\"name\":\"Гончарная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гончарная 2-я" ],
+      "value" : "{\"name\":\"Гончарная 2-я\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гончарный" ],
+      "value" : "{\"name\":\"Гончарный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гончарова" ],
+      "value" : "{\"name\":\"Гончарова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Горный" ],
+      "value" : "{\"name\":\"Горный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гражданская" ],
+      "value" : "{\"name\":\"Гражданская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Грибоедова" ],
+      "value" : "{\"name\":\"Грибоедова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Грозненский" ],
+      "value" : "{\"name\":\"Грозненский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гульчинский" ],
+      "value" : "{\"name\":\"Гульчинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Д.Асанова" ],
+      "value" : "{\"name\":\"Д.Асанова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дагестанская" ],
+      "value" : "{\"name\":\"Дагестанская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дарханский" ],
+      "value" : "{\"name\":\"Дарханский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дачная" ],
+      "value" : "{\"name\":\"Дачная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дачный" ],
+      "value" : "{\"name\":\"Дачный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ден - Сяопина" ],
+      "value" : "{\"name\":\"Ден - Сяопина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Деповская" ],
+      "value" : "{\"name\":\"Деповская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джалал-Абадская" ],
+      "value" : "{\"name\":\"Джалал-Абадская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джаманбаева" ],
+      "value" : "{\"name\":\"Джаманбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джамбула" ],
+      "value" : "{\"name\":\"Джамбула\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джамбульский" ],
+      "value" : "{\"name\":\"Джамбульский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джамгерчинова" ],
+      "value" : "{\"name\":\"Джамгерчинова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джантошова" ],
+      "value" : "{\"name\":\"Джантошова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джергалан" ],
+      "value" : "{\"name\":\"Джергалан\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джеты-Огузский" ],
+      "value" : "{\"name\":\"Джеты-Огузский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джийде" ],
+      "value" : "{\"name\":\"Джийде\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джольский" ],
+      "value" : "{\"name\":\"Джольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джумгальский" ],
+      "value" : "{\"name\":\"Джумгальский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джунусалиева" ],
+      "value" : "{\"name\":\"Джунусалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дмитрова" ],
+      "value" : "{\"name\":\"Дмитрова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Долон" ],
+      "value" : "{\"name\":\"Долон\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Долонский" ],
+      "value" : "{\"name\":\"Долонский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Донской" ],
+      "value" : "{\"name\":\"Донской\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Достоевского" ],
+      "value" : "{\"name\":\"Достоевского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Древесная" ],
+      "value" : "{\"name\":\"Древесная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дрогобычский" ],
+      "value" : "{\"name\":\"Дрогобычский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дубосековская" ],
+      "value" : "{\"name\":\"Дубосековская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дубосековский" ],
+      "value" : "{\"name\":\"Дубосековский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дунайский" ],
+      "value" : "{\"name\":\"Дунайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дэн-Сяопина" ],
+      "value" : "{\"name\":\"Дэн-Сяопина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Елецкий" ],
+      "value" : "{\"name\":\"Елецкий\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Енисейский" ],
+      "value" : "{\"name\":\"Енисейский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ереванский" ],
+      "value" : "{\"name\":\"Ереванский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жаз" ],
+      "value" : "{\"name\":\"Жаз\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жениш" ],
+      "value" : "{\"name\":\"Жениш\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жибек - Жолу" ],
+      "value" : "{\"name\":\"Жибек - Жолу\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жукеева - Пудовкина" ],
+      "value" : "{\"name\":\"Жукеева - Пудовкина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жуковского" ],
+      "value" : "{\"name\":\"Жуковского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жумабек" ],
+      "value" : "{\"name\":\"Жумабек\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жумабека" ],
+      "value" : "{\"name\":\"Жумабека\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Журнальная" ],
+      "value" : "{\"name\":\"Журнальная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Загородная" ],
+      "value" : "{\"name\":\"Загородная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Загорская" ],
+      "value" : "{\"name\":\"Загорская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Западная" ],
+      "value" : "{\"name\":\"Западная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Западный" ],
+      "value" : "{\"name\":\"Западный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Заречная" ],
+      "value" : "{\"name\":\"Заречная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Захарева" ],
+      "value" : "{\"name\":\"Захарева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Зеленая" ],
+      "value" : "{\"name\":\"Зеленая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Зеравшанский" ],
+      "value" : "{\"name\":\"Зеравшанский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Зимы" ],
+      "value" : "{\"name\":\"Зимы\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Самойленко" ],
+      "value" : "{\"name\":\"И. Самойленко\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ибраимова" ],
+      "value" : "{\"name\":\"Ибраимова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Иваницина" ],
+      "value" : "{\"name\":\"Иваницина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ижевский" ],
+      "value" : "{\"name\":\"Ижевский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Измайловский" ],
+      "value" : "{\"name\":\"Измайловский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Изюмский" ],
+      "value" : "{\"name\":\"Изюмский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Илийский" ],
+      "value" : "{\"name\":\"Илийский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ильменская" ],
+      "value" : "{\"name\":\"Ильменская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Иманалиева" ],
+      "value" : "{\"name\":\"Иманалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Интергельпо" ],
+      "value" : "{\"name\":\"Интергельпо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Интернациональный" ],
+      "value" : "{\"name\":\"Интернациональный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Иркутский" ],
+      "value" : "{\"name\":\"Иркутский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Иртышский" ],
+      "value" : "{\"name\":\"Иртышский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Исанова" ],
+      "value" : "{\"name\":\"Исанова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Иссык-Кульская" ],
+      "value" : "{\"name\":\"Иссык-Кульская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ичкет-Суу" ],
+      "value" : "{\"name\":\"Ичкет-Суу\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "К. Акиева" ],
+      "value" : "{\"name\":\"К. Акиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "К. Баялинова" ],
+      "value" : "{\"name\":\"К. Баялинова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каарманский" ],
+      "value" : "{\"name\":\"Каарманский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каганский" ],
+      "value" : "{\"name\":\"Каганский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каджи-Сайский" ],
+      "value" : "{\"name\":\"Каджи-Сайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Казакова" ],
+      "value" : "{\"name\":\"Казакова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Казанский" ],
+      "value" : "{\"name\":\"Казанский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кайназарова" ],
+      "value" : "{\"name\":\"Кайназарова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Калинина" ],
+      "value" : "{\"name\":\"Калинина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Калужская" ],
+      "value" : "{\"name\":\"Калужская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Калыка Акиева" ],
+      "value" : "{\"name\":\"Калыка Акиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Калымский" ],
+      "value" : "{\"name\":\"Калымский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каменный" ],
+      "value" : "{\"name\":\"Каменный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Камская" ],
+      "value" : "{\"name\":\"Камская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Камчатская" ],
+      "value" : "{\"name\":\"Камчатская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кантемировская" ],
+      "value" : "{\"name\":\"Кантемировская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кантовский" ],
+      "value" : "{\"name\":\"Кантовский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карабалтинская" ],
+      "value" : "{\"name\":\"Карабалтинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Караванский" ],
+      "value" : "{\"name\":\"Караванский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карагайский" ],
+      "value" : "{\"name\":\"Карагайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карагачевая" ],
+      "value" : "{\"name\":\"Карагачевая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карагачевый" ],
+      "value" : "{\"name\":\"Карагачевый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карадарьинская" ],
+      "value" : "{\"name\":\"Карадарьинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кара-Жыгач" ],
+      "value" : "{\"name\":\"Кара-Жыгач\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каракольский" ],
+      "value" : "{\"name\":\"Каракольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каракульская" ],
+      "value" : "{\"name\":\"Каракульская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каракумская" ],
+      "value" : "{\"name\":\"Каракумская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карасаева" ],
+      "value" : "{\"name\":\"Карасаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карасуйская" ],
+      "value" : "{\"name\":\"Карасуйская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карпатская" ],
+      "value" : "{\"name\":\"Карпатская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карский" ],
+      "value" : "{\"name\":\"Карский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каспийская" ],
+      "value" : "{\"name\":\"Каспийская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Касымалы Баялинова" ],
+      "value" : "{\"name\":\"Касымалы Баялинова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каунасский" ],
+      "value" : "{\"name\":\"Каунасский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каховская" ],
+      "value" : "{\"name\":\"Каховская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кельдибека Карбоз уулу" ],
+      "value" : "{\"name\":\"Кельдибека Карбоз уулу\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кеменская" ],
+      "value" : "{\"name\":\"Кеменская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кеменский" ],
+      "value" : "{\"name\":\"Кеменский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кемеровский" ],
+      "value" : "{\"name\":\"Кемеровский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кен-Кол" ],
+      "value" : "{\"name\":\"Кен-Кол\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кенсуйская" ],
+      "value" : "{\"name\":\"Кенсуйская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Киевская" ],
+      "value" : "{\"name\":\"Киевская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кирова" ],
+      "value" : "{\"name\":\"Кирова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кирпичная" ],
+      "value" : "{\"name\":\"Кирпичная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кирпичный" ],
+      "value" : "{\"name\":\"Кирпичный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кишиневская" ],
+      "value" : "{\"name\":\"Кишиневская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кленовый" ],
+      "value" : "{\"name\":\"Кленовый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Клинский" ],
+      "value" : "{\"name\":\"Клинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Клубничный" ],
+      "value" : "{\"name\":\"Клубничный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Коенкозова" ],
+      "value" : "{\"name\":\"Коенкозова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кожобергенова" ],
+      "value" : "{\"name\":\"Кожобергенова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кожомкула" ],
+      "value" : "{\"name\":\"Кожомкула\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Козу - Баглан" ],
+      "value" : "{\"name\":\"Козу - Баглан\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Койбагарова" ],
+      "value" : "{\"name\":\"Койбагарова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Койташский" ],
+      "value" : "{\"name\":\"Койташский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кокандский" ],
+      "value" : "{\"name\":\"Кокандский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кокчетавская" ],
+      "value" : "{\"name\":\"Кокчетавская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Коллекторная" ],
+      "value" : "{\"name\":\"Коллекторная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Коллекторный" ],
+      "value" : "{\"name\":\"Коллекторный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кольбаева" ],
+      "value" : "{\"name\":\"Кольбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кольцевая" ],
+      "value" : "{\"name\":\"Кольцевая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Коммунарова" ],
+      "value" : "{\"name\":\"Коммунарова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Комсомольская" ],
+      "value" : "{\"name\":\"Комсомольская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Комсомольский" ],
+      "value" : "{\"name\":\"Комсомольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Коперника" ],
+      "value" : "{\"name\":\"Коперника\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Корейская" ],
+      "value" : "{\"name\":\"Корейская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Короткая" ],
+      "value" : "{\"name\":\"Короткая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Корульский" ],
+      "value" : "{\"name\":\"Корульский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Космическая" ],
+      "value" : "{\"name\":\"Космическая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Котовского" ],
+      "value" : "{\"name\":\"Котовского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кочкорская" ],
+      "value" : "{\"name\":\"Кочкорская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Красная" ],
+      "value" : "{\"name\":\"Красная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Красноводский" ],
+      "value" : "{\"name\":\"Красноводский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Краснодарская" ],
+      "value" : "{\"name\":\"Краснодарская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Краснодонцев" ],
+      "value" : "{\"name\":\"Краснодонцев\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Краснофлотский" ],
+      "value" : "{\"name\":\"Краснофлотский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Красный строитель" ],
+      "value" : "{\"name\":\"Красный строитель\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кривоносова" ],
+      "value" : "{\"name\":\"Кривоносова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Криворожская" ],
+      "value" : "{\"name\":\"Криворожская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Криворожский" ],
+      "value" : "{\"name\":\"Криворожский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кронштадская" ],
+      "value" : "{\"name\":\"Кронштадская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кропоткина" ],
+      "value" : "{\"name\":\"Кропоткина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Крылова" ],
+      "value" : "{\"name\":\"Крылова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кубанский" ],
+      "value" : "{\"name\":\"Кубанский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кубинская" ],
+      "value" : "{\"name\":\"Кубинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кудайбергенова" ],
+      "value" : "{\"name\":\"Кудайбергенова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кудрука" ],
+      "value" : "{\"name\":\"Кудрука\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кузбасская" ],
+      "value" : "{\"name\":\"Кузбасская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кузнечная крепость" ],
+      "value" : "{\"name\":\"Кузнечная крепость\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кузнечный" ],
+      "value" : "{\"name\":\"Кузнечный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кузнечный проезд" ],
+      "value" : "{\"name\":\"Кузнечный проезд\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Куйбышева" ],
+      "value" : "{\"name\":\"Куйбышева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кукурузный" ],
+      "value" : "{\"name\":\"Кукурузный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кулатова" ],
+      "value" : "{\"name\":\"Кулатова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кулиева" ],
+      "value" : "{\"name\":\"Кулиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Куликовская" ],
+      "value" : "{\"name\":\"Куликовская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кумарыкская" ],
+      "value" : "{\"name\":\"Кумарыкская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кумбельский" ],
+      "value" : "{\"name\":\"Кумбельский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Курганская" ],
+      "value" : "{\"name\":\"Курганская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Куренкеева" ],
+      "value" : "{\"name\":\"Куренкеева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Курманжан - Датка" ],
+      "value" : "{\"name\":\"Курманжан - Датка\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Курский" ],
+      "value" : "{\"name\":\"Курский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Курчатова" ],
+      "value" : "{\"name\":\"Курчатова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кустайнайский" ],
+      "value" : "{\"name\":\"Кустайнайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кустанайская" ],
+      "value" : "{\"name\":\"Кустанайская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кутузова" ],
+      "value" : "{\"name\":\"Кутузова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кызыл-Аскерская" ],
+      "value" : "{\"name\":\"Кызыл-Аскерская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кызыл-Кийская" ],
+      "value" : "{\"name\":\"Кызыл-Кийская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кызыл-Орданский" ],
+      "value" : "{\"name\":\"Кызыл-Орданский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Л. Толстого" ],
+      "value" : "{\"name\":\"Л. Толстого\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лагерный" ],
+      "value" : "{\"name\":\"Лагерный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ладожская" ],
+      "value" : "{\"name\":\"Ладожская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лазо" ],
+      "value" : "{\"name\":\"Лазо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лазурная" ],
+      "value" : "{\"name\":\"Лазурная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лебедева-Кумача" ],
+      "value" : "{\"name\":\"Лебедева-Кумача\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Леваневского" ],
+      "value" : "{\"name\":\"Леваневского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ленинпольский" ],
+      "value" : "{\"name\":\"Ленинпольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ленская" ],
+      "value" : "{\"name\":\"Ленская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лермонтова" ],
+      "value" : "{\"name\":\"Лермонтова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лесная" ],
+      "value" : "{\"name\":\"Лесная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лесхозная" ],
+      "value" : "{\"name\":\"Лесхозная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лесхозный" ],
+      "value" : "{\"name\":\"Лесхозный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Либкнехта" ],
+      "value" : "{\"name\":\"Либкнехта\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Линейная" ],
+      "value" : "{\"name\":\"Линейная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Линия 2" ],
+      "value" : "{\"name\":\"Линия 2\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Линия 7" ],
+      "value" : "{\"name\":\"Линия 7\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Линия 8" ],
+      "value" : "{\"name\":\"Линия 8\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Линия 9" ],
+      "value" : "{\"name\":\"Линия 9\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Литвинова" ],
+      "value" : "{\"name\":\"Литвинова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Литовская" ],
+      "value" : "{\"name\":\"Литовская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Логвиненко" ],
+      "value" : "{\"name\":\"Логвиненко\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ломоносова" ],
+      "value" : "{\"name\":\"Ломоносова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Луганская" ],
+      "value" : "{\"name\":\"Луганская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Луговая" ],
+      "value" : "{\"name\":\"Луговая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Луговой" ],
+      "value" : "{\"name\":\"Луговой\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Луначарского" ],
+      "value" : "{\"name\":\"Луначарского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Луцкий" ],
+      "value" : "{\"name\":\"Луцкий\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лущихина" ],
+      "value" : "{\"name\":\"Лущихина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Люксембург" ],
+      "value" : "{\"name\":\"Люксембург\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ляйлякский" ],
+      "value" : "{\"name\":\"Ляйлякский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Алыбаева" ],
+      "value" : "{\"name\":\"М. Алыбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Асанбаева" ],
+      "value" : "{\"name\":\"М. Асанбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Ганди" ],
+      "value" : "{\"name\":\"М. Ганди\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Горького" ],
+      "value" : "{\"name\":\"М. Горького\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Джалиля" ],
+      "value" : "{\"name\":\"М. Джалиля\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Сагымбая" ],
+      "value" : "{\"name\":\"М. Сагымбая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Темира" ],
+      "value" : "{\"name\":\"М. Темира\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Магаданская" ],
+      "value" : "{\"name\":\"Магаданская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Магнитогорская" ],
+      "value" : "{\"name\":\"Магнитогорская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Майкопский" ],
+      "value" : "{\"name\":\"Майкопский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Майли-Сайский" ],
+      "value" : "{\"name\":\"Майли-Сайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Маймакский" ],
+      "value" : "{\"name\":\"Маймакский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Макеевский" ],
+      "value" : "{\"name\":\"Макеевский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Малдыбаева" ],
+      "value" : "{\"name\":\"Малдыбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Маликова" ],
+      "value" : "{\"name\":\"Маликова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Малиновая" ],
+      "value" : "{\"name\":\"Малиновая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Малиновый" ],
+      "value" : "{\"name\":\"Малиновый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Малышева" ],
+      "value" : "{\"name\":\"Малышева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Манаса" ],
+      "value" : "{\"name\":\"Манаса\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Манасчы Сагынбая" ],
+      "value" : "{\"name\":\"Манасчы Сагынбая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Марата" ],
+      "value" : "{\"name\":\"Марата\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мариупольский" ],
+      "value" : "{\"name\":\"Мариупольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Матросова" ],
+      "value" : "{\"name\":\"Матросова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Матыева" ],
+      "value" : "{\"name\":\"Матыева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Махатма Ганди" ],
+      "value" : "{\"name\":\"Махатма Ганди\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Маяковского" ],
+      "value" : "{\"name\":\"Маяковского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Медерова" ],
+      "value" : "{\"name\":\"Медерова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Менделеева" ],
+      "value" : "{\"name\":\"Менделеева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Месароша" ],
+      "value" : "{\"name\":\"Месароша\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Механический" ],
+      "value" : "{\"name\":\"Механический\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мечникова" ],
+      "value" : "{\"name\":\"Мечникова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Минбулакский" ],
+      "value" : "{\"name\":\"Минбулакский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Минина" ],
+      "value" : "{\"name\":\"Минина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Минская" ],
+      "value" : "{\"name\":\"Минская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мира" ],
+      "value" : "{\"name\":\"Мира\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мирный" ],
+      "value" : "{\"name\":\"Мирный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мичурина" ],
+      "value" : "{\"name\":\"Мичурина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Можайская" ],
+      "value" : "{\"name\":\"Можайская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Можайского" ],
+      "value" : "{\"name\":\"Можайского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мозолева" ],
+      "value" : "{\"name\":\"Мозолева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мозырский" ],
+      "value" : "{\"name\":\"Мозырский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Молдавский" ],
+      "value" : "{\"name\":\"Молдавский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Монгольский" ],
+      "value" : "{\"name\":\"Монгольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Морозова" ],
+      "value" : "{\"name\":\"Морозова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Московская" ],
+      "value" : "{\"name\":\"Московская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мостовая" ],
+      "value" : "{\"name\":\"Мостовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "МПС" ],
+      "value" : "{\"name\":\"МПС\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мраморный" ],
+      "value" : "{\"name\":\"Мраморный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "МТС" ],
+      "value" : "{\"name\":\"МТС\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мургабский" ],
+      "value" : "{\"name\":\"Мургабский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мурманская" ],
+      "value" : "{\"name\":\"Мурманская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Муромская" ],
+      "value" : "{\"name\":\"Муромская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Муса Жалила" ],
+      "value" : "{\"name\":\"Муса Жалила\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мусоргского" ],
+      "value" : "{\"name\":\"Мусоргского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мусулманкулова" ],
+      "value" : "{\"name\":\"Мусулманкулова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Набережная" ],
+      "value" : "{\"name\":\"Набережная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Набережный" ],
+      "value" : "{\"name\":\"Набережный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Наманганская" ],
+      "value" : "{\"name\":\"Наманганская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Наманганский" ],
+      "value" : "{\"name\":\"Наманганский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Нарвская" ],
+      "value" : "{\"name\":\"Нарвская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Наримановский" ],
+      "value" : "{\"name\":\"Наримановский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Нарынский" ],
+      "value" : "{\"name\":\"Нарынский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Насикат" ],
+      "value" : "{\"name\":\"Насикат\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Наукатский" ],
+      "value" : "{\"name\":\"Наукатский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Нахимова" ],
+      "value" : "{\"name\":\"Нахимова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Нежинский" ],
+      "value" : "{\"name\":\"Нежинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Низовая" ],
+      "value" : "{\"name\":\"Низовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Никитина" ],
+      "value" : "{\"name\":\"Никитина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Новая (частный сектор)" ],
+      "value" : "{\"name\":\"Новая (частный сектор)\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Новгородская" ],
+      "value" : "{\"name\":\"Новгородская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Новооктябрьский" ],
+      "value" : "{\"name\":\"Новооктябрьский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Новосибирский" ],
+      "value" : "{\"name\":\"Новосибирский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Новостроевский" ],
+      "value" : "{\"name\":\"Новостроевский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Нурекская" ],
+      "value" : "{\"name\":\"Нурекская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Овощной" ],
+      "value" : "{\"name\":\"Овощной\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Огомбаева" ],
+      "value" : "{\"name\":\"Огомбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Огородный" ],
+      "value" : "{\"name\":\"Огородный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Одесский" ],
+      "value" : "{\"name\":\"Одесский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Озерный" ],
+      "value" : "{\"name\":\"Озерный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Окрайная" ],
+      "value" : "{\"name\":\"Окрайная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Октябрьская" ],
+      "value" : "{\"name\":\"Октябрьская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Омский" ],
+      "value" : "{\"name\":\"Омский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Оренбургская" ],
+      "value" : "{\"name\":\"Оренбургская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Орловская" ],
+      "value" : "{\"name\":\"Орловская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ормокоева" ],
+      "value" : "{\"name\":\"Ормокоева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Орозбекова" ],
+      "value" : "{\"name\":\"Орозбекова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Орская" ],
+      "value" : "{\"name\":\"Орская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ортотокойский" ],
+      "value" : "{\"name\":\"Ортотокойский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Осипенко" ],
+      "value" : "{\"name\":\"Осипенко\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Осмонкула" ],
+      "value" : "{\"name\":\"Осмонкула\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Осмонова" ],
+      "value" : "{\"name\":\"Осмонова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Осташковская" ],
+      "value" : "{\"name\":\"Осташковская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Островского" ],
+      "value" : "{\"name\":\"Островского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Оттукский" ],
+      "value" : "{\"name\":\"Оттукский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Офицерский" ],
+      "value" : "{\"name\":\"Офицерский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Охотный" ],
+      "value" : "{\"name\":\"Охотный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Охотский" ],
+      "value" : "{\"name\":\"Охотский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Очаковская" ],
+      "value" : "{\"name\":\"Очаковская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Очаковского" ],
+      "value" : "{\"name\":\"Очаковского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ошская" ],
+      "value" : "{\"name\":\"Ошская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Павлова" ],
+      "value" : "{\"name\":\"Павлова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Памирский" ],
+      "value" : "{\"name\":\"Памирский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Панфилова" ],
+      "value" : "{\"name\":\"Панфилова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Парковая" ],
+      "value" : "{\"name\":\"Парковая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Паровозная" ],
+      "value" : "{\"name\":\"Паровозная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Партизанский" ],
+      "value" : "{\"name\":\"Партизанский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пархоменко" ],
+      "value" : "{\"name\":\"Пархоменко\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пензенский" ],
+      "value" : "{\"name\":\"Пензенский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Первомайский" ],
+      "value" : "{\"name\":\"Первомайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Передовая" ],
+      "value" : "{\"name\":\"Передовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Перекопская" ],
+      "value" : "{\"name\":\"Перекопская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кокандский" ],
+      "value" : "{\"name\":\"Кокандский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Авангардный" ],
+      "value" : "{\"name\":\"Авангардный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Адырский" ],
+      "value" : "{\"name\":\"Адырский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Акбуринский" ],
+      "value" : "{\"name\":\"Акбуринский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Акталинский" ],
+      "value" : "{\"name\":\"Акталинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Актерекский" ],
+      "value" : "{\"name\":\"Актерекский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Актюбинский" ],
+      "value" : "{\"name\":\"Актюбинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алайский" ],
+      "value" : "{\"name\":\"Алайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Аламединский" ],
+      "value" : "{\"name\":\"Аламединский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Александровский" ],
+      "value" : "{\"name\":\"Александровский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алтайский" ],
+      "value" : "{\"name\":\"Алтайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Амурский" ],
+      "value" : "{\"name\":\"Амурский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ангарский" ],
+      "value" : "{\"name\":\"Ангарский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Андижанский" ],
+      "value" : "{\"name\":\"Андижанский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Аральский" ],
+      "value" : "{\"name\":\"Аральский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Арасанский" ],
+      "value" : "{\"name\":\"Арасанский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Астраханский" ],
+      "value" : "{\"name\":\"Астраханский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Атбасарский" ],
+      "value" : "{\"name\":\"Атбасарский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ат-Башинский" ],
+      "value" : "{\"name\":\"Ат-Башинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ашхабадский" ],
+      "value" : "{\"name\":\"Ашхабадский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Аэродромный" ],
+      "value" : "{\"name\":\"Аэродромный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бабушкин" ],
+      "value" : "{\"name\":\"Бабушкин\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Багишский" ],
+      "value" : "{\"name\":\"Багишский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Базарный" ],
+      "value" : "{\"name\":\"Базарный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бакинский" ],
+      "value" : "{\"name\":\"Бакинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Балханский" ],
+      "value" : "{\"name\":\"Балханский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Балыкчинский" ],
+      "value" : "{\"name\":\"Балыкчинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Барнаульский" ],
+      "value" : "{\"name\":\"Барнаульский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Баррикадный" ],
+      "value" : "{\"name\":\"Баррикадный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Барскаунский" ],
+      "value" : "{\"name\":\"Барскаунский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Баткенский" ],
+      "value" : "{\"name\":\"Баткенский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Батыра" ],
+      "value" : "{\"name\":\"Батыра\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Беговой" ],
+      "value" : "{\"name\":\"Беговой\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Белозерский" ],
+      "value" : "{\"name\":\"Белозерский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Беломорский" ],
+      "value" : "{\"name\":\"Беломорский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Береговой" ],
+      "value" : "{\"name\":\"Береговой\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Берликский" ],
+      "value" : "{\"name\":\"Берликский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Беш-Кунгейский" ],
+      "value" : "{\"name\":\"Беш-Кунгейский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бийский" ],
+      "value" : "{\"name\":\"Бийский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Больничный" ],
+      "value" : "{\"name\":\"Больничный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Боомский" ],
+      "value" : "{\"name\":\"Боомский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Боровской" ],
+      "value" : "{\"name\":\"Боровской\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ботанический" ],
+      "value" : "{\"name\":\"Ботанический\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бреславский" ],
+      "value" : "{\"name\":\"Бреславский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Булакский" ],
+      "value" : "{\"name\":\"Булакский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бухарский" ],
+      "value" : "{\"name\":\"Бухарский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Верхний" ],
+      "value" : "{\"name\":\"Верхний\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Веселый" ],
+      "value" : "{\"name\":\"Веселый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Вилюйский" ],
+      "value" : "{\"name\":\"Вилюйский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Виноградный" ],
+      "value" : "{\"name\":\"Виноградный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Витебский" ],
+      "value" : "{\"name\":\"Витебский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Волжский" ],
+      "value" : "{\"name\":\"Волжский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Вологодский" ],
+      "value" : "{\"name\":\"Вологодский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Волочаевский" ],
+      "value" : "{\"name\":\"Волочаевский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гатчинский" ],
+      "value" : "{\"name\":\"Гатчинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гвардейский" ],
+      "value" : "{\"name\":\"Гвардейский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Геологический" ],
+      "value" : "{\"name\":\"Геологический\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гончарная 2-я" ],
+      "value" : "{\"name\":\"Гончарная 2-я\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гончарный" ],
+      "value" : "{\"name\":\"Гончарный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Горный" ],
+      "value" : "{\"name\":\"Горный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Грозненский" ],
+      "value" : "{\"name\":\"Грозненский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гульчинский" ],
+      "value" : "{\"name\":\"Гульчинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дарханский" ],
+      "value" : "{\"name\":\"Дарханский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дачный" ],
+      "value" : "{\"name\":\"Дачный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джамбульский" ],
+      "value" : "{\"name\":\"Джамбульский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джергалан" ],
+      "value" : "{\"name\":\"Джергалан\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джеты-Огузский" ],
+      "value" : "{\"name\":\"Джеты-Огузский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джольский" ],
+      "value" : "{\"name\":\"Джольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джумгальский" ],
+      "value" : "{\"name\":\"Джумгальский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Долонский" ],
+      "value" : "{\"name\":\"Долонский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Донской" ],
+      "value" : "{\"name\":\"Донской\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дрогобычский" ],
+      "value" : "{\"name\":\"Дрогобычский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дубосековский" ],
+      "value" : "{\"name\":\"Дубосековский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дунайский" ],
+      "value" : "{\"name\":\"Дунайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Елецкий" ],
+      "value" : "{\"name\":\"Елецкий\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Енисейский" ],
+      "value" : "{\"name\":\"Енисейский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ереванский" ],
+      "value" : "{\"name\":\"Ереванский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жуковского" ],
+      "value" : "{\"name\":\"Жуковского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Западный" ],
+      "value" : "{\"name\":\"Западный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Зеравшанский" ],
+      "value" : "{\"name\":\"Зеравшанский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ижевский" ],
+      "value" : "{\"name\":\"Ижевский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Измайловский" ],
+      "value" : "{\"name\":\"Измайловский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Изюмский" ],
+      "value" : "{\"name\":\"Изюмский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Илийский" ],
+      "value" : "{\"name\":\"Илийский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Интернациональный" ],
+      "value" : "{\"name\":\"Интернациональный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Иркутский" ],
+      "value" : "{\"name\":\"Иркутский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Иртышский" ],
+      "value" : "{\"name\":\"Иртышский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каарманский" ],
+      "value" : "{\"name\":\"Каарманский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каганский" ],
+      "value" : "{\"name\":\"Каганский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каджи-Сайский" ],
+      "value" : "{\"name\":\"Каджи-Сайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Казанский" ],
+      "value" : "{\"name\":\"Казанский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Калымский" ],
+      "value" : "{\"name\":\"Калымский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каменный" ],
+      "value" : "{\"name\":\"Каменный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кантовский" ],
+      "value" : "{\"name\":\"Кантовский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карагайский" ],
+      "value" : "{\"name\":\"Карагайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карагачевый" ],
+      "value" : "{\"name\":\"Карагачевый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кара-Жыгач" ],
+      "value" : "{\"name\":\"Кара-Жыгач\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каракольский" ],
+      "value" : "{\"name\":\"Каракольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карский" ],
+      "value" : "{\"name\":\"Карский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каунасский" ],
+      "value" : "{\"name\":\"Каунасский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кеменский" ],
+      "value" : "{\"name\":\"Кеменский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кемеровский" ],
+      "value" : "{\"name\":\"Кемеровский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кен-Кол" ],
+      "value" : "{\"name\":\"Кен-Кол\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кирова" ],
+      "value" : "{\"name\":\"Кирова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кирпичный" ],
+      "value" : "{\"name\":\"Кирпичный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кленовый" ],
+      "value" : "{\"name\":\"Кленовый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Клинский" ],
+      "value" : "{\"name\":\"Клинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Клубничный" ],
+      "value" : "{\"name\":\"Клубничный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кожомкула" ],
+      "value" : "{\"name\":\"Кожомкула\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Койташский" ],
+      "value" : "{\"name\":\"Койташский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кокчетавский" ],
+      "value" : "{\"name\":\"Кокчетавский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Коллекторный" ],
+      "value" : "{\"name\":\"Коллекторный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Комсомольский" ],
+      "value" : "{\"name\":\"Комсомольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Корульский" ],
+      "value" : "{\"name\":\"Корульский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Красноводский" ],
+      "value" : "{\"name\":\"Красноводский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Краснофлотский" ],
+      "value" : "{\"name\":\"Краснофлотский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Красный строитель" ],
+      "value" : "{\"name\":\"Красный строитель\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Криворожский" ],
+      "value" : "{\"name\":\"Криворожский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кубанский" ],
+      "value" : "{\"name\":\"Кубанский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кузнечный" ],
+      "value" : "{\"name\":\"Кузнечный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кукурузный" ],
+      "value" : "{\"name\":\"Кукурузный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кумбельский" ],
+      "value" : "{\"name\":\"Кумбельский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Курский" ],
+      "value" : "{\"name\":\"Курский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кустайнайский" ],
+      "value" : "{\"name\":\"Кустайнайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кызыл-Орданский" ],
+      "value" : "{\"name\":\"Кызыл-Орданский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лагерный" ],
+      "value" : "{\"name\":\"Лагерный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лазо" ],
+      "value" : "{\"name\":\"Лазо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ленинпольский" ],
+      "value" : "{\"name\":\"Ленинпольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лесхозный" ],
+      "value" : "{\"name\":\"Лесхозный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Либкнехта" ],
+      "value" : "{\"name\":\"Либкнехта\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Логвиненко" ],
+      "value" : "{\"name\":\"Логвиненко\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Луговой" ],
+      "value" : "{\"name\":\"Луговой\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Луцкий" ],
+      "value" : "{\"name\":\"Луцкий\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ляйлякский" ],
+      "value" : "{\"name\":\"Ляйлякский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Майкопский" ],
+      "value" : "{\"name\":\"Майкопский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Майли-Сайский" ],
+      "value" : "{\"name\":\"Майли-Сайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Маймакский" ],
+      "value" : "{\"name\":\"Маймакский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Макеевский" ],
+      "value" : "{\"name\":\"Макеевский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Малиновый" ],
+      "value" : "{\"name\":\"Малиновый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мариупольский" ],
+      "value" : "{\"name\":\"Мариупольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Менделеева" ],
+      "value" : "{\"name\":\"Менделеева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Механический" ],
+      "value" : "{\"name\":\"Механический\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Минбулакский" ],
+      "value" : "{\"name\":\"Минбулакский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мирный" ],
+      "value" : "{\"name\":\"Мирный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мичурина" ],
+      "value" : "{\"name\":\"Мичурина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мозырский" ],
+      "value" : "{\"name\":\"Мозырский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Молдавский" ],
+      "value" : "{\"name\":\"Молдавский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Монгольский" ],
+      "value" : "{\"name\":\"Монгольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мраморный" ],
+      "value" : "{\"name\":\"Мраморный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мургабский" ],
+      "value" : "{\"name\":\"Мургабский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Набережный" ],
+      "value" : "{\"name\":\"Набережный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Наманганский" ],
+      "value" : "{\"name\":\"Наманганский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Наримановский" ],
+      "value" : "{\"name\":\"Наримановский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Нарынский" ],
+      "value" : "{\"name\":\"Нарынский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Наукатский" ],
+      "value" : "{\"name\":\"Наукатский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Нахимова" ],
+      "value" : "{\"name\":\"Нахимова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Нежинский" ],
+      "value" : "{\"name\":\"Нежинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Новооктябрьский" ],
+      "value" : "{\"name\":\"Новооктябрьский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Новосибирский" ],
+      "value" : "{\"name\":\"Новосибирский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Новостроевский" ],
+      "value" : "{\"name\":\"Новостроевский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Овощной" ],
+      "value" : "{\"name\":\"Овощной\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Огородный" ],
+      "value" : "{\"name\":\"Огородный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Одесский" ],
+      "value" : "{\"name\":\"Одесский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Озерный" ],
+      "value" : "{\"name\":\"Озерный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Омский" ],
+      "value" : "{\"name\":\"Омский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Оренбургский" ],
+      "value" : "{\"name\":\"Оренбургский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ортотокойский" ],
+      "value" : "{\"name\":\"Ортотокойский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Осипенко" ],
+      "value" : "{\"name\":\"Осипенко\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Островского" ],
+      "value" : "{\"name\":\"Островского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Оттукский" ],
+      "value" : "{\"name\":\"Оттукский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Офицерский" ],
+      "value" : "{\"name\":\"Офицерский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Охотный" ],
+      "value" : "{\"name\":\"Охотный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Охотский" ],
+      "value" : "{\"name\":\"Охотский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ошский" ],
+      "value" : "{\"name\":\"Ошский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Памирский" ],
+      "value" : "{\"name\":\"Памирский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Партизанский" ],
+      "value" : "{\"name\":\"Партизанский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пензенский" ],
+      "value" : "{\"name\":\"Пензенский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Первомайский" ],
+      "value" : "{\"name\":\"Первомайский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Печерский" ],
+      "value" : "{\"name\":\"Печерский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пишпекский" ],
+      "value" : "{\"name\":\"Пишпекский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пожарского" ],
+      "value" : "{\"name\":\"Пожарского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Покровский" ],
+      "value" : "{\"name\":\"Покровский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Полтавский" ],
+      "value" : "{\"name\":\"Полтавский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Предгорный" ],
+      "value" : "{\"name\":\"Предгорный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Проезжий" ],
+      "value" : "{\"name\":\"Проезжий\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рабочий" ],
+      "value" : "{\"name\":\"Рабочий\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Речной" ],
+      "value" : "{\"name\":\"Речной\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Родниковый" ],
+      "value" : "{\"name\":\"Родниковый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рыбинский" ],
+      "value" : "{\"name\":\"Рыбинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рылеева" ],
+      "value" : "{\"name\":\"Рылеева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Садовый" ],
+      "value" : "{\"name\":\"Садовый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Самаркандский" ],
+      "value" : "{\"name\":\"Самаркандский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Самарский" ],
+      "value" : "{\"name\":\"Самарский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Саранский" ],
+      "value" : "{\"name\":\"Саранский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Саратовский" ],
+      "value" : "{\"name\":\"Саратовский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Саруйский" ],
+      "value" : "{\"name\":\"Саруйский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сахалинский" ],
+      "value" : "{\"name\":\"Сахалинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Северо-Ипподромный" ],
+      "value" : "{\"name\":\"Северо-Ипподромный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сибирский" ],
+      "value" : "{\"name\":\"Сибирский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Скандинавский" ],
+      "value" : "{\"name\":\"Скандинавский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Смоленский" ],
+      "value" : "{\"name\":\"Смоленский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Снегиревский" ],
+      "value" : "{\"name\":\"Снегиревский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сонкульский" ],
+      "value" : "{\"name\":\"Сонкульский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сосновый" ],
+      "value" : "{\"name\":\"Сосновый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Средний" ],
+      "value" : "{\"name\":\"Средний\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сузакский" ],
+      "value" : "{\"name\":\"Сузакский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сумской" ],
+      "value" : "{\"name\":\"Сумской\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Суусамырский" ],
+      "value" : "{\"name\":\"Суусамырский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Таганрогский" ],
+      "value" : "{\"name\":\"Таганрогский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Таджикский" ],
+      "value" : "{\"name\":\"Таджикский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Таласский" ],
+      "value" : "{\"name\":\"Таласский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Талдысуйский" ],
+      "value" : "{\"name\":\"Талдысуйский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Таллинский" ],
+      "value" : "{\"name\":\"Таллинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тамбовский" ],
+      "value" : "{\"name\":\"Тамбовский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Темирова" ],
+      "value" : "{\"name\":\"Темирова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тернопольский" ],
+      "value" : "{\"name\":\"Тернопольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Терский" ],
+      "value" : "{\"name\":\"Терский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тимирязева" ],
+      "value" : "{\"name\":\"Тимирязева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тихвинский" ],
+      "value" : "{\"name\":\"Тихвинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тобольский" ],
+      "value" : "{\"name\":\"Тобольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Токольдош" ],
+      "value" : "{\"name\":\"Токольдош\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тонский" ],
+      "value" : "{\"name\":\"Тонский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тунгусский" ],
+      "value" : "{\"name\":\"Тунгусский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "тупик Островского" ],
+      "value" : "{\"name\":\"тупик Островского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тюпский" ],
+      "value" : "{\"name\":\"Тюпский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ужгородский" ],
+      "value" : "{\"name\":\"Ужгородский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Узгенский" ],
+      "value" : "{\"name\":\"Узгенский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Украинский" ],
+      "value" : "{\"name\":\"Украинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Улахольский" ],
+      "value" : "{\"name\":\"Улахольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Урожайный" ],
+      "value" : "{\"name\":\"Урожайный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Урючный" ],
+      "value" : "{\"name\":\"Урючный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Уссурийский" ],
+      "value" : "{\"name\":\"Уссурийский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Уфимский" ],
+      "value" : "{\"name\":\"Уфимский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фабричный" ],
+      "value" : "{\"name\":\"Фабричный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Феодосийский" ],
+      "value" : "{\"name\":\"Феодосийский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ферганский" ],
+      "value" : "{\"name\":\"Ферганский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фестивальный" ],
+      "value" : "{\"name\":\"Фестивальный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Флотский" ],
+      "value" : "{\"name\":\"Флотский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фонтанный" ],
+      "value" : "{\"name\":\"Фонтанный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Хабаровский" ],
+      "value" : "{\"name\":\"Хабаровский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Хайдарканский" ],
+      "value" : "{\"name\":\"Хайдарканский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чаткальский" ],
+      "value" : "{\"name\":\"Чаткальский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чатыркульский" ],
+      "value" : "{\"name\":\"Чатыркульский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Черемховский" ],
+      "value" : "{\"name\":\"Черемховский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Черкасский" ],
+      "value" : "{\"name\":\"Черкасский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Черноморский" ],
+      "value" : "{\"name\":\"Черноморский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чугуевский" ],
+      "value" : "{\"name\":\"Чугуевский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шевченко" ],
+      "value" : "{\"name\":\"Шевченко\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Школьный" ],
+      "value" : "{\"name\":\"Школьный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шушенский" ],
+      "value" : "{\"name\":\"Шушенский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Щорса" ],
+      "value" : "{\"name\":\"Щорса\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Элебесова" ],
+      "value" : "{\"name\":\"Элебесова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Эстонский" ],
+      "value" : "{\"name\":\"Эстонский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Юнусалиева" ],
+      "value" : "{\"name\":\"Юнусалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Яблочный" ],
+      "value" : "{\"name\":\"Яблочный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ямбургский" ],
+      "value" : "{\"name\":\"Ямбургский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Январский" ],
+      "value" : "{\"name\":\"Январский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ярославский" ],
+      "value" : "{\"name\":\"Ярославский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Печерский" ],
+      "value" : "{\"name\":\"Печерский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пионерская" ],
+      "value" : "{\"name\":\"Пионерская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пишпекская" ],
+      "value" : "{\"name\":\"Пишпекская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Победы" ],
+      "value" : "{\"name\":\"Победы\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Подольская" ],
+      "value" : "{\"name\":\"Подольская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пожарского" ],
+      "value" : "{\"name\":\"Пожарского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Покровский" ],
+      "value" : "{\"name\":\"Покровский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Политехническая" ],
+      "value" : "{\"name\":\"Политехническая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Полтавский" ],
+      "value" : "{\"name\":\"Полтавский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Попова" ],
+      "value" : "{\"name\":\"Попова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Предгорный" ],
+      "value" : "{\"name\":\"Предгорный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пржевальского" ],
+      "value" : "{\"name\":\"Пржевальского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Проезжий" ],
+      "value" : "{\"name\":\"Проезжий\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пролетарская" ],
+      "value" : "{\"name\":\"Пролетарская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ахунбаева" ],
+      "value" : "{\"name\":\"Ахунбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жибек-Жолу" ],
+      "value" : "{\"name\":\"Жибек-Жолу\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Зимы" ],
+      "value" : "{\"name\":\"Зимы\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Ганди" ],
+      "value" : "{\"name\":\"М. Ганди\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Махатма Ганди" ],
+      "value" : "{\"name\":\"Махатма Ганди\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мира" ],
+      "value" : "{\"name\":\"Мира\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Перекопская" ],
+      "value" : "{\"name\":\"Перекопская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чуй" ],
+      "value" : "{\"name\":\"Чуй\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Юнусалиева" ],
+      "value" : "{\"name\":\"Юнусалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Профсоюзная" ],
+      "value" : "{\"name\":\"Профсоюзная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Псковская" ],
+      "value" : "{\"name\":\"Псковская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Путепроводная" ],
+      "value" : "{\"name\":\"Путепроводная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пушкина" ],
+      "value" : "{\"name\":\"Пушкина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рабочая" ],
+      "value" : "{\"name\":\"Рабочая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Радищева" ],
+      "value" : "{\"name\":\"Радищева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Раззакова" ],
+      "value" : "{\"name\":\"Раззакова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Разина" ],
+      "value" : "{\"name\":\"Разина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ракетная" ],
+      "value" : "{\"name\":\"Ракетная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Репина" ],
+      "value" : "{\"name\":\"Репина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Республиканская" ],
+      "value" : "{\"name\":\"Республиканская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Речной" ],
+      "value" : "{\"name\":\"Речной\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рижская" ],
+      "value" : "{\"name\":\"Рижская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Родниковый" ],
+      "value" : "{\"name\":\"Родниковый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ростовская" ],
+      "value" : "{\"name\":\"Ростовская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рыбинский" ],
+      "value" : "{\"name\":\"Рыбинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рылеева" ],
+      "value" : "{\"name\":\"Рылеева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рыскулова" ],
+      "value" : "{\"name\":\"Рыскулова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рысмендиева" ],
+      "value" : "{\"name\":\"Рысмендиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рязанская" ],
+      "value" : "{\"name\":\"Рязанская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "С. Акылбекова" ],
+      "value" : "{\"name\":\"С. Акылбекова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Садаева" ],
+      "value" : "{\"name\":\"Садаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Садовая" ],
+      "value" : "{\"name\":\"Садовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Садовый" ],
+      "value" : "{\"name\":\"Садовый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Садыгалиева" ],
+      "value" : "{\"name\":\"Садыгалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Садырбаева" ],
+      "value" : "{\"name\":\"Садырбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Салиева" ],
+      "value" : "{\"name\":\"Салиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Саликамская" ],
+      "value" : "{\"name\":\"Саликамская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Салтыкова Щедрина" ],
+      "value" : "{\"name\":\"Салтыкова Щедрина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Самаркандский" ],
+      "value" : "{\"name\":\"Самаркандский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Самарский" ],
+      "value" : "{\"name\":\"Самарский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Саранский" ],
+      "value" : "{\"name\":\"Саранский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Саратовская" ],
+      "value" : "{\"name\":\"Саратовская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Саратовский" ],
+      "value" : "{\"name\":\"Саратовский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Саруйский" ],
+      "value" : "{\"name\":\"Саруйский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сарыкулакова" ],
+      "value" : "{\"name\":\"Сарыкулакова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сары-Челекская" ],
+      "value" : "{\"name\":\"Сары-Челекская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сахалинский" ],
+      "value" : "{\"name\":\"Сахалинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Свердлова" ],
+      "value" : "{\"name\":\"Свердлова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Севастопольская" ],
+      "value" : "{\"name\":\"Севастопольская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Северная" ],
+      "value" : "{\"name\":\"Северная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Северо-Ипподромная" ],
+      "value" : "{\"name\":\"Северо-Ипподромная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Северо-Ипподромный" ],
+      "value" : "{\"name\":\"Северо-Ипподромный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сельповская" ],
+      "value" : "{\"name\":\"Сельповская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сельсоветская" ],
+      "value" : "{\"name\":\"Сельсоветская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Семетей" ],
+      "value" : "{\"name\":\"Семетей\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Серафимович" ],
+      "value" : "{\"name\":\"Серафимович\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Серова" ],
+      "value" : "{\"name\":\"Серова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Серпуховская" ],
+      "value" : "{\"name\":\"Серпуховская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сеченова" ],
+      "value" : "{\"name\":\"Сеченова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сибирский" ],
+      "value" : "{\"name\":\"Сибирский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сибирский проезд" ],
+      "value" : "{\"name\":\"Сибирский проезд\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Симферопольский" ],
+      "value" : "{\"name\":\"Симферопольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Скандинавский" ],
+      "value" : "{\"name\":\"Скандинавский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Скрябина" ],
+      "value" : "{\"name\":\"Скрябина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Славгородская" ],
+      "value" : "{\"name\":\"Славгородская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Славянская" ],
+      "value" : "{\"name\":\"Славянская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Смоленский" ],
+      "value" : "{\"name\":\"Смоленский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Снегиревский" ],
+      "value" : "{\"name\":\"Снегиревский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Советская" ],
+      "value" : "{\"name\":\"Советская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Совхоз Ала-тоо" ],
+      "value" : "{\"name\":\"Совхоз Ала-тоо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сокулукская" ],
+      "value" : "{\"name\":\"Сокулукская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сонкульский" ],
+      "value" : "{\"name\":\"Сонкульский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сосновый" ],
+      "value" : "{\"name\":\"Сосновый\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Средний" ],
+      "value" : "{\"name\":\"Средний\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Средняя" ],
+      "value" : "{\"name\":\"Средняя\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Суванбердиева" ],
+      "value" : "{\"name\":\"Суванбердиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Суворова" ],
+      "value" : "{\"name\":\"Суворова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Суеркулова" ],
+      "value" : "{\"name\":\"Суеркулова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сузакский" ],
+      "value" : "{\"name\":\"Сузакский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сумской" ],
+      "value" : "{\"name\":\"Сумской\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Суусамырский" ],
+      "value" : "{\"name\":\"Суусамырский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сухомлинова" ],
+      "value" : "{\"name\":\"Сухомлинова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Суюнбаева" ],
+      "value" : "{\"name\":\"Суюнбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сыдыкова" ],
+      "value" : "{\"name\":\"Сыдыкова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Т. Молдо" ],
+      "value" : "{\"name\":\"Т. Молдо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Т.Фрунзе" ],
+      "value" : "{\"name\":\"Т.Фрунзе\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Таалай" ],
+      "value" : "{\"name\":\"Таалай\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Табалдиева" ],
+      "value" : "{\"name\":\"Табалдиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Табачная" ],
+      "value" : "{\"name\":\"Табачная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Табышалиева" ],
+      "value" : "{\"name\":\"Табышалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Таганрогский" ],
+      "value" : "{\"name\":\"Таганрогский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Таджикский" ],
+      "value" : "{\"name\":\"Таджикский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Таймырский" ],
+      "value" : "{\"name\":\"Таймырский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тайшетская" ],
+      "value" : "{\"name\":\"Тайшетская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Таласский" ],
+      "value" : "{\"name\":\"Таласский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Талдысуйская" ],
+      "value" : "{\"name\":\"Талдысуйская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Талдысуйский" ],
+      "value" : "{\"name\":\"Талдысуйский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Таллинский" ],
+      "value" : "{\"name\":\"Таллинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тамбовский" ],
+      "value" : "{\"name\":\"Тамбовский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ташаузская" ],
+      "value" : "{\"name\":\"Ташаузская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ташкентская" ],
+      "value" : "{\"name\":\"Ташкентская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ташкумырская" ],
+      "value" : "{\"name\":\"Ташкумырская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тверская" ],
+      "value" : "{\"name\":\"Тверская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тельмана" ],
+      "value" : "{\"name\":\"Тельмана\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Темирова" ],
+      "value" : "{\"name\":\"Темирова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Темировская" ],
+      "value" : "{\"name\":\"Темировская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Термечикова" ],
+      "value" : "{\"name\":\"Термечикова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тернопольский" ],
+      "value" : "{\"name\":\"Тернопольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Терский" ],
+      "value" : "{\"name\":\"Терский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тимирязева" ],
+      "value" : "{\"name\":\"Тимирязева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тираспольская" ],
+      "value" : "{\"name\":\"Тираспольская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тихвинский" ],
+      "value" : "{\"name\":\"Тихвинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тобольский" ],
+      "value" : "{\"name\":\"Тобольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Товарная вторая" ],
+      "value" : "{\"name\":\"Товарная вторая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тоголок Молдо" ],
+      "value" : "{\"name\":\"Тоголок Молдо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тойгомбаева" ],
+      "value" : "{\"name\":\"Тойгомбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тойгонбаева" ],
+      "value" : "{\"name\":\"Тойгонбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Токмокская" ],
+      "value" : "{\"name\":\"Токмокская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Токольдош" ],
+      "value" : "{\"name\":\"Токольдош\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Токомбаева" ],
+      "value" : "{\"name\":\"Токомбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Токтогула" ],
+      "value" : "{\"name\":\"Токтогула\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Токтоналиева" ],
+      "value" : "{\"name\":\"Токтоналиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тонский" ],
+      "value" : "{\"name\":\"Тонский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Торфяная" ],
+      "value" : "{\"name\":\"Торфяная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Троицкая" ],
+      "value" : "{\"name\":\"Троицкая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Трудовая" ],
+      "value" : "{\"name\":\"Трудовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Туголбой Ата" ],
+      "value" : "{\"name\":\"Туголбой Ата\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тулебердиева" ],
+      "value" : "{\"name\":\"Тулебердиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тунгусский" ],
+      "value" : "{\"name\":\"Тунгусский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "тупик Островского" ],
+      "value" : "{\"name\":\"тупик Островского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тургенева" ],
+      "value" : "{\"name\":\"Тургенева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Турусбекова" ],
+      "value" : "{\"name\":\"Турусбекова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тыныбекова" ],
+      "value" : "{\"name\":\"Тыныбекова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тыныстанова" ],
+      "value" : "{\"name\":\"Тыныстанова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тюменская" ],
+      "value" : "{\"name\":\"Тюменская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тюпский" ],
+      "value" : "{\"name\":\"Тюпский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Удмуртская" ],
+      "value" : "{\"name\":\"Удмуртская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ужгородский" ],
+      "value" : "{\"name\":\"Ужгородский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Узгенский" ],
+      "value" : "{\"name\":\"Узгенский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Украинский" ],
+      "value" : "{\"name\":\"Украинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Улан" ],
+      "value" : "{\"name\":\"Улан\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Улахольский" ],
+      "value" : "{\"name\":\"Улахольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "16 линия" ],
+      "value" : "{\"name\":\"16 линия\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "18 линия" ],
+      "value" : "{\"name\":\"18 линия\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "50 лет победы" ],
+      "value" : "{\"name\":\"50 лет победы\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "9 го января" ],
+      "value" : "{\"name\":\"9 го января\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "9 –го января" ],
+      "value" : "{\"name\":\"9 –го января\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "9го января" ],
+      "value" : "{\"name\":\"9го января\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абаканская" ],
+      "value" : "{\"name\":\"Абаканская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абая" ],
+      "value" : "{\"name\":\"Абая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абдраева" ],
+      "value" : "{\"name\":\"Абдраева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абдраимова" ],
+      "value" : "{\"name\":\"Абдраимова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абдрахманова" ],
+      "value" : "{\"name\":\"Абдрахманова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абдумомунова" ],
+      "value" : "{\"name\":\"Абдумомунова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абдыкадырова" ],
+      "value" : "{\"name\":\"Абдыкадырова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Абдымомунова" ],
+      "value" : "{\"name\":\"Абдымомунова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Адырская" ],
+      "value" : "{\"name\":\"Адырская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Адышева" ],
+      "value" : "{\"name\":\"Адышева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ажыбек Баатыра" ],
+      "value" : "{\"name\":\"Ажыбек Баатыра\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Азаттык" ],
+      "value" : "{\"name\":\"Азаттык\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Азовская" ],
+      "value" : "{\"name\":\"Азовская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ай - Кол" ],
+      "value" : "{\"name\":\"Ай - Кол\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Айдаралиева" ],
+      "value" : "{\"name\":\"Айдаралиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Айни" ],
+      "value" : "{\"name\":\"Айни\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Айтматова" ],
+      "value" : "{\"name\":\"Айтматова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ак - Жолтой" ],
+      "value" : "{\"name\":\"Ак - Жолтой\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Акмуз" ],
+      "value" : "{\"name\":\"Акмуз\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ак-Сайская" ],
+      "value" : "{\"name\":\"Ак-Сайская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ала - Букинская" ],
+      "value" : "{\"name\":\"Ала - Букинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ала - Тоо" ],
+      "value" : "{\"name\":\"Ала - Тоо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ала-Арчинская" ],
+      "value" : "{\"name\":\"Ала-Арчинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Аларчинская" ],
+      "value" : "{\"name\":\"Аларчинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алма- Атинская" ],
+      "value" : "{\"name\":\"Алма- Атинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алтымышева" ],
+      "value" : "{\"name\":\"Алтымышева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алтымышова" ],
+      "value" : "{\"name\":\"Алтымышова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алтын - Бешик" ],
+      "value" : "{\"name\":\"Алтын - Бешик\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Алыкулова" ],
+      "value" : "{\"name\":\"Алыкулова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Альпинская" ],
+      "value" : "{\"name\":\"Альпинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Аммосова" ],
+      "value" : "{\"name\":\"Аммосова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Амосова" ],
+      "value" : "{\"name\":\"Амосова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ананьева" ],
+      "value" : "{\"name\":\"Ананьева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Андижанская" ],
+      "value" : "{\"name\":\"Андижанская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Араванская" ],
+      "value" : "{\"name\":\"Араванская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Арзамасская" ],
+      "value" : "{\"name\":\"Арзамасская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Армавирская" ],
+      "value" : "{\"name\":\"Армавирская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Армавирская" ],
+      "value" : "{\"name\":\"Армавирская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Армейская" ],
+      "value" : "{\"name\":\"Армейская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Артемовская" ],
+      "value" : "{\"name\":\"Артемовская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Архангельская" ],
+      "value" : "{\"name\":\"Архангельская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Асаналиева" ],
+      "value" : "{\"name\":\"Асаналиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Астраханская" ],
+      "value" : "{\"name\":\"Астраханская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ауэзова" ],
+      "value" : "{\"name\":\"Ауэзова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ахунбаева" ],
+      "value" : "{\"name\":\"Ахунбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ашхабадская" ],
+      "value" : "{\"name\":\"Ашхабадская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Б. Баатыра" ],
+      "value" : "{\"name\":\"Б. Баатыра\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Багратиона" ],
+      "value" : "{\"name\":\"Багратиона\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Баетова" ],
+      "value" : "{\"name\":\"Баетова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Базар-Курганская" ],
+      "value" : "{\"name\":\"Базар-Курганская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Байтик Баатыра" ],
+      "value" : "{\"name\":\"Байтик Баатыра\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бакаева" ],
+      "value" : "{\"name\":\"Бакаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бакинская" ],
+      "value" : "{\"name\":\"Бакинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бакинский" ],
+      "value" : "{\"name\":\"Бакинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Балтагулова" ],
+      "value" : "{\"name\":\"Балтагулова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Балтийская" ],
+      "value" : "{\"name\":\"Балтийская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Балык-Кумара" ],
+      "value" : "{\"name\":\"Балык-Кумара\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Баха" ],
+      "value" : "{\"name\":\"Баха\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Баялинова Касымалы" ],
+      "value" : "{\"name\":\"Баялинова Касымалы\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бейшеналиева" ],
+      "value" : "{\"name\":\"Бейшеналиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бектенова" ],
+      "value" : "{\"name\":\"Бектенова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Белгородская" ],
+      "value" : "{\"name\":\"Белгородская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Белорусская" ],
+      "value" : "{\"name\":\"Белорусская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бельская" ],
+      "value" : "{\"name\":\"Бельская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Береговая" ],
+      "value" : "{\"name\":\"Береговая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Березовая" ],
+      "value" : "{\"name\":\"Березовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Библиотечная" ],
+      "value" : "{\"name\":\"Библиотечная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Боконбаева" ],
+      "value" : "{\"name\":\"Боконбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Болотная" ],
+      "value" : "{\"name\":\"Болотная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бородина" ],
+      "value" : "{\"name\":\"Бородина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Боталиева" ],
+      "value" : "{\"name\":\"Боталиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Братская" ],
+      "value" : "{\"name\":\"Братская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Брестская" ],
+      "value" : "{\"name\":\"Брестская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бронированная" ],
+      "value" : "{\"name\":\"Бронированная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Брянская" ],
+      "value" : "{\"name\":\"Брянская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Буденного" ],
+      "value" : "{\"name\":\"Буденного\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бурулдайская" ],
+      "value" : "{\"name\":\"Бурулдайская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Буурдинская" ],
+      "value" : "{\"name\":\"Буурдинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Бухарская" ],
+      "value" : "{\"name\":\"Бухарская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Валдайская" ],
+      "value" : "{\"name\":\"Валдайская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Варшавская" ],
+      "value" : "{\"name\":\"Варшавская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Васильева" ],
+      "value" : "{\"name\":\"Васильева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Весёлая" ],
+      "value" : "{\"name\":\"Весёлая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Виноградная" ],
+      "value" : "{\"name\":\"Виноградная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Витебская" ],
+      "value" : "{\"name\":\"Витебская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Владимировская" ],
+      "value" : "{\"name\":\"Владимировская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Власова" ],
+      "value" : "{\"name\":\"Власова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Водопроводная" ],
+      "value" : "{\"name\":\"Водопроводная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Волгоградская" ],
+      "value" : "{\"name\":\"Волгоградская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Волкова" ],
+      "value" : "{\"name\":\"Волкова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Волоколамская" ],
+      "value" : "{\"name\":\"Волоколамская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Волховская" ],
+      "value" : "{\"name\":\"Волховская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Воркутинская" ],
+      "value" : "{\"name\":\"Воркутинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Воровского" ],
+      "value" : "{\"name\":\"Воровского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Воронежская" ],
+      "value" : "{\"name\":\"Воронежская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Восточная" ],
+      "value" : "{\"name\":\"Восточная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Вятская" ],
+      "value" : "{\"name\":\"Вятская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гагарина" ],
+      "value" : "{\"name\":\"Гагарина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гаражная" ],
+      "value" : "{\"name\":\"Гаражная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гастелло" ],
+      "value" : "{\"name\":\"Гастелло\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Герцена" ],
+      "value" : "{\"name\":\"Герцена\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гоголя" ],
+      "value" : "{\"name\":\"Гоголя\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гончарная" ],
+      "value" : "{\"name\":\"Гончарная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гончарова" ],
+      "value" : "{\"name\":\"Гончарова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Гражданская" ],
+      "value" : "{\"name\":\"Гражданская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Грибоедова" ],
+      "value" : "{\"name\":\"Грибоедова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Д.Асанова" ],
+      "value" : "{\"name\":\"Д.Асанова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дагестанская" ],
+      "value" : "{\"name\":\"Дагестанская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дачная" ],
+      "value" : "{\"name\":\"Дачная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ден-Сяопина" ],
+      "value" : "{\"name\":\"Ден-Сяопина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Деповская" ],
+      "value" : "{\"name\":\"Деповская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джалал-Абадская" ],
+      "value" : "{\"name\":\"Джалал-Абадская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джалал-Абадская" ],
+      "value" : "{\"name\":\"Джалал-Абадская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джаманбаева" ],
+      "value" : "{\"name\":\"Джаманбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джамбула" ],
+      "value" : "{\"name\":\"Джамбула\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джамбула" ],
+      "value" : "{\"name\":\"Джамбула\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джамгерчинова" ],
+      "value" : "{\"name\":\"Джамгерчинова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джантошова" ],
+      "value" : "{\"name\":\"Джантошова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джийде" ],
+      "value" : "{\"name\":\"Джийде\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Джунусалиева" ],
+      "value" : "{\"name\":\"Джунусалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дмитрова" ],
+      "value" : "{\"name\":\"Дмитрова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Долон" ],
+      "value" : "{\"name\":\"Долон\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Достоевского" ],
+      "value" : "{\"name\":\"Достоевского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Древесная" ],
+      "value" : "{\"name\":\"Древесная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дубосековская" ],
+      "value" : "{\"name\":\"Дубосековская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Дэн-Сяопина" ],
+      "value" : "{\"name\":\"Дэн-Сяопина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Малдыбаева" ],
+      "value" : "{\"name\":\"Малдыбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жаз" ],
+      "value" : "{\"name\":\"Жаз\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жениш" ],
+      "value" : "{\"name\":\"Жениш\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жукеева-Пудовкина" ],
+      "value" : "{\"name\":\"Жукеева-Пудовкина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жумабек" ],
+      "value" : "{\"name\":\"Жумабек\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Жумабека" ],
+      "value" : "{\"name\":\"Жумабека\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Журнальная" ],
+      "value" : "{\"name\":\"Журнальная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Загородная" ],
+      "value" : "{\"name\":\"Загородная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Загорская" ],
+      "value" : "{\"name\":\"Загорская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Западная" ],
+      "value" : "{\"name\":\"Западная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Заречная" ],
+      "value" : "{\"name\":\"Заречная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Захарева" ],
+      "value" : "{\"name\":\"Захарева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Зеленая" ],
+      "value" : "{\"name\":\"Зеленая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "И. Самойленко" ],
+      "value" : "{\"name\":\"И. Самойленко\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ибраимова" ],
+      "value" : "{\"name\":\"Ибраимова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Иваницина" ],
+      "value" : "{\"name\":\"Иваницина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ильменская" ],
+      "value" : "{\"name\":\"Ильменская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Иманалиева" ],
+      "value" : "{\"name\":\"Иманалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Интергельпо" ],
+      "value" : "{\"name\":\"Интергельпо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Исанова" ],
+      "value" : "{\"name\":\"Исанова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Иссык-Кульская" ],
+      "value" : "{\"name\":\"Иссык-Кульская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ичкет-Суу" ],
+      "value" : "{\"name\":\"Ичкет-Суу\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "К. Акиева" ],
+      "value" : "{\"name\":\"К. Акиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "К. Баялинова" ],
+      "value" : "{\"name\":\"К. Баялинова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Казакова" ],
+      "value" : "{\"name\":\"Казакова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кайназарова" ],
+      "value" : "{\"name\":\"Кайназарова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Калинина" ],
+      "value" : "{\"name\":\"Калинина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Калужская" ],
+      "value" : "{\"name\":\"Калужская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Калыка Акиева" ],
+      "value" : "{\"name\":\"Калыка Акиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Камская" ],
+      "value" : "{\"name\":\"Камская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Камчатская" ],
+      "value" : "{\"name\":\"Камчатская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кантемировская" ],
+      "value" : "{\"name\":\"Кантемировская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карабалтинская" ],
+      "value" : "{\"name\":\"Карабалтинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Караванский" ],
+      "value" : "{\"name\":\"Караванский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карагачевая" ],
+      "value" : "{\"name\":\"Карагачевая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карадарьинская" ],
+      "value" : "{\"name\":\"Карадарьинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каракульская" ],
+      "value" : "{\"name\":\"Каракульская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каракумская" ],
+      "value" : "{\"name\":\"Каракумская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карасаева" ],
+      "value" : "{\"name\":\"Карасаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карасуйская" ],
+      "value" : "{\"name\":\"Карасуйская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Карпатская" ],
+      "value" : "{\"name\":\"Карпатская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каспийская" ],
+      "value" : "{\"name\":\"Каспийская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Касымалы Баялинова" ],
+      "value" : "{\"name\":\"Касымалы Баялинова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Каховская" ],
+      "value" : "{\"name\":\"Каховская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кельдибека Карбоз уулу" ],
+      "value" : "{\"name\":\"Кельдибека Карбоз уулу\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кеменская" ],
+      "value" : "{\"name\":\"Кеменская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кенсуйская" ],
+      "value" : "{\"name\":\"Кенсуйская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Киевская" ],
+      "value" : "{\"name\":\"Киевская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кирпичная" ],
+      "value" : "{\"name\":\"Кирпичная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кишиневская" ],
+      "value" : "{\"name\":\"Кишиневская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Коенкозова" ],
+      "value" : "{\"name\":\"Коенкозова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кожобергенова" ],
+      "value" : "{\"name\":\"Кожобергенова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Козу - Баглан" ],
+      "value" : "{\"name\":\"Козу - Баглан\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Койбагарова" ],
+      "value" : "{\"name\":\"Койбагарова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кокчетавская" ],
+      "value" : "{\"name\":\"Кокчетавская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Коллекторная" ],
+      "value" : "{\"name\":\"Коллекторная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кольбаева" ],
+      "value" : "{\"name\":\"Кольбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кольцевая" ],
+      "value" : "{\"name\":\"Кольцевая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Коммунарова" ],
+      "value" : "{\"name\":\"Коммунарова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Комсомольская" ],
+      "value" : "{\"name\":\"Комсомольская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Коперника" ],
+      "value" : "{\"name\":\"Коперника\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Корейская" ],
+      "value" : "{\"name\":\"Корейская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Короткая" ],
+      "value" : "{\"name\":\"Короткая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Космическая" ],
+      "value" : "{\"name\":\"Космическая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Котовского" ],
+      "value" : "{\"name\":\"Котовского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кочкорская" ],
+      "value" : "{\"name\":\"Кочкорская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Красная" ],
+      "value" : "{\"name\":\"Красная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Краснодарская" ],
+      "value" : "{\"name\":\"Краснодарская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Краснодонцев" ],
+      "value" : "{\"name\":\"Краснодонцев\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кривоносова" ],
+      "value" : "{\"name\":\"Кривоносова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Криворожская" ],
+      "value" : "{\"name\":\"Криворожская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кронштадская" ],
+      "value" : "{\"name\":\"Кронштадская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кропоткина" ],
+      "value" : "{\"name\":\"Кропоткина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Крылова" ],
+      "value" : "{\"name\":\"Крылова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кубинская" ],
+      "value" : "{\"name\":\"Кубинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кудайбергенова" ],
+      "value" : "{\"name\":\"Кудайбергенова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кудрука" ],
+      "value" : "{\"name\":\"Кудрука\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кузбасская" ],
+      "value" : "{\"name\":\"Кузбасская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кузнечная крепость" ],
+      "value" : "{\"name\":\"Кузнечная крепость\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кузнечный проезд" ],
+      "value" : "{\"name\":\"Кузнечный проезд\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Куйбышева" ],
+      "value" : "{\"name\":\"Куйбышева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кулатова" ],
+      "value" : "{\"name\":\"Кулатова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кулиева" ],
+      "value" : "{\"name\":\"Кулиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Куликовская" ],
+      "value" : "{\"name\":\"Куликовская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кумарыкская" ],
+      "value" : "{\"name\":\"Кумарыкская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Курганская" ],
+      "value" : "{\"name\":\"Курганская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Куренкеева" ],
+      "value" : "{\"name\":\"Куренкеева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Курманжан - Датка" ],
+      "value" : "{\"name\":\"Курманжан - Датка\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Курманжан Датка" ],
+      "value" : "{\"name\":\"Курманжан Датка\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Курчатова" ],
+      "value" : "{\"name\":\"Курчатова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кустанайская" ],
+      "value" : "{\"name\":\"Кустанайская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кутузова" ],
+      "value" : "{\"name\":\"Кутузова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кызыл-Аскерская" ],
+      "value" : "{\"name\":\"Кызыл-Аскерская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Кызыл-Кийская" ],
+      "value" : "{\"name\":\"Кызыл-Кийская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Л. Толстого" ],
+      "value" : "{\"name\":\"Л. Толстого\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ладожская" ],
+      "value" : "{\"name\":\"Ладожская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лазо" ],
+      "value" : "{\"name\":\"Лазо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лазурная" ],
+      "value" : "{\"name\":\"Лазурная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лебедева-Кумача" ],
+      "value" : "{\"name\":\"Лебедева-Кумача\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Леваневского" ],
+      "value" : "{\"name\":\"Леваневского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ленская" ],
+      "value" : "{\"name\":\"Ленская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лермонтова" ],
+      "value" : "{\"name\":\"Лермонтова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лесная" ],
+      "value" : "{\"name\":\"Лесная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лесхозная" ],
+      "value" : "{\"name\":\"Лесхозная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Линейная" ],
+      "value" : "{\"name\":\"Линейная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Линия 2" ],
+      "value" : "{\"name\":\"Линия 2\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Линия 7" ],
+      "value" : "{\"name\":\"Линия 7\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Линия 8" ],
+      "value" : "{\"name\":\"Линия 8\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Линия 9" ],
+      "value" : "{\"name\":\"Линия 9\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Литвинова" ],
+      "value" : "{\"name\":\"Литвинова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Литовская" ],
+      "value" : "{\"name\":\"Литовская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Логвиненко" ],
+      "value" : "{\"name\":\"Логвиненко\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ломоносова" ],
+      "value" : "{\"name\":\"Ломоносова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Луганская" ],
+      "value" : "{\"name\":\"Луганская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Луговая" ],
+      "value" : "{\"name\":\"Луговая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Луначарского" ],
+      "value" : "{\"name\":\"Луначарского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Лущихина" ],
+      "value" : "{\"name\":\"Лущихина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Люксембург" ],
+      "value" : "{\"name\":\"Люксембург\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Алыбаева" ],
+      "value" : "{\"name\":\"М. Алыбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Асанбаева" ],
+      "value" : "{\"name\":\"М. Асанбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Горького" ],
+      "value" : "{\"name\":\"М. Горького\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Джалиля" ],
+      "value" : "{\"name\":\"М. Джалиля\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Сагымбая" ],
+      "value" : "{\"name\":\"М. Сагымбая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "М. Темира" ],
+      "value" : "{\"name\":\"М. Темира\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Магаданская" ],
+      "value" : "{\"name\":\"Магаданская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Магнитогорская" ],
+      "value" : "{\"name\":\"Магнитогорская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Малдыбаева" ],
+      "value" : "{\"name\":\"Малдыбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Маликова" ],
+      "value" : "{\"name\":\"Маликова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Малиновая" ],
+      "value" : "{\"name\":\"Малиновая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Малышева" ],
+      "value" : "{\"name\":\"Малышева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Манаса" ],
+      "value" : "{\"name\":\"Манаса\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Манасчы Сагынбая" ],
+      "value" : "{\"name\":\"Манасчы Сагынбая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Марата" ],
+      "value" : "{\"name\":\"Марата\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Матросова" ],
+      "value" : "{\"name\":\"Матросова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Матыева" ],
+      "value" : "{\"name\":\"Матыева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Маяковского" ],
+      "value" : "{\"name\":\"Маяковского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Медерова" ],
+      "value" : "{\"name\":\"Медерова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Менделеева" ],
+      "value" : "{\"name\":\"Менделеева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Месароша" ],
+      "value" : "{\"name\":\"Месароша\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мечникова" ],
+      "value" : "{\"name\":\"Мечникова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Минина" ],
+      "value" : "{\"name\":\"Минина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Минская" ],
+      "value" : "{\"name\":\"Минская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мичурина" ],
+      "value" : "{\"name\":\"Мичурина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Можайская" ],
+      "value" : "{\"name\":\"Можайская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Можайского" ],
+      "value" : "{\"name\":\"Можайского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мозолева" ],
+      "value" : "{\"name\":\"Мозолева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Морозова" ],
+      "value" : "{\"name\":\"Морозова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Московская" ],
+      "value" : "{\"name\":\"Московская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мостовая" ],
+      "value" : "{\"name\":\"Мостовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "МПС" ],
+      "value" : "{\"name\":\"МПС\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "МТС" ],
+      "value" : "{\"name\":\"МТС\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мурманская" ],
+      "value" : "{\"name\":\"Мурманская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Муромская" ],
+      "value" : "{\"name\":\"Муромская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Муса Жалила" ],
+      "value" : "{\"name\":\"Муса Жалила\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мусоргского" ],
+      "value" : "{\"name\":\"Мусоргского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Мусулманкулова" ],
+      "value" : "{\"name\":\"Мусулманкулова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Набережная" ],
+      "value" : "{\"name\":\"Набережная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Наманганская" ],
+      "value" : "{\"name\":\"Наманганская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Нарвская" ],
+      "value" : "{\"name\":\"Нарвская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Насикат" ],
+      "value" : "{\"name\":\"Насикат\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Низовая" ],
+      "value" : "{\"name\":\"Низовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Никитина" ],
+      "value" : "{\"name\":\"Никитина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Новая (частный сектор)" ],
+      "value" : "{\"name\":\"Новая (частный сектор)\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Новгородская" ],
+      "value" : "{\"name\":\"Новгородская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Нурекская" ],
+      "value" : "{\"name\":\"Нурекская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Огомбаева" ],
+      "value" : "{\"name\":\"Огомбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Окрайная" ],
+      "value" : "{\"name\":\"Окрайная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Октябрьская" ],
+      "value" : "{\"name\":\"Октябрьская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Оренбургская" ],
+      "value" : "{\"name\":\"Оренбургская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Орловская" ],
+      "value" : "{\"name\":\"Орловская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ормокоева" ],
+      "value" : "{\"name\":\"Ормокоева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Орозбекова" ],
+      "value" : "{\"name\":\"Орозбекова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Орская" ],
+      "value" : "{\"name\":\"Орская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Осипенко" ],
+      "value" : "{\"name\":\"Осипенко\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Осмонкула" ],
+      "value" : "{\"name\":\"Осмонкула\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Осмонова" ],
+      "value" : "{\"name\":\"Осмонова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Осташковская" ],
+      "value" : "{\"name\":\"Осташковская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Островского" ],
+      "value" : "{\"name\":\"Островского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Очаковская" ],
+      "value" : "{\"name\":\"Очаковская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Очаковского" ],
+      "value" : "{\"name\":\"Очаковского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ошская" ],
+      "value" : "{\"name\":\"Ошская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "П. Лумумбы" ],
+      "value" : "{\"name\":\"П. Лумумбы\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Павлова" ],
+      "value" : "{\"name\":\"Павлова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Панфилова" ],
+      "value" : "{\"name\":\"Панфилова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Парковая" ],
+      "value" : "{\"name\":\"Парковая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Паровозная" ],
+      "value" : "{\"name\":\"Паровозная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пархоменко" ],
+      "value" : "{\"name\":\"Пархоменко\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Передовая" ],
+      "value" : "{\"name\":\"Передовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пионерская" ],
+      "value" : "{\"name\":\"Пионерская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пишпекская" ],
+      "value" : "{\"name\":\"Пишпекская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Победы" ],
+      "value" : "{\"name\":\"Победы\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Подольская" ],
+      "value" : "{\"name\":\"Подольская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Политехническая" ],
+      "value" : "{\"name\":\"Политехническая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Попова" ],
+      "value" : "{\"name\":\"Попова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пржевальского" ],
+      "value" : "{\"name\":\"Пржевальского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пролетарская" ],
+      "value" : "{\"name\":\"Пролетарская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Зимы" ],
+      "value" : "{\"name\":\"Зимы\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "профессора Зимы" ],
+      "value" : "{\"name\":\"профессора Зимы\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Профсоюзная" ],
+      "value" : "{\"name\":\"Профсоюзная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Псковская" ],
+      "value" : "{\"name\":\"Псковская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Путепроводная" ],
+      "value" : "{\"name\":\"Путепроводная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Пушкина" ],
+      "value" : "{\"name\":\"Пушкина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рабочая" ],
+      "value" : "{\"name\":\"Рабочая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Радищева" ],
+      "value" : "{\"name\":\"Радищева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Раззакова" ],
+      "value" : "{\"name\":\"Раззакова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Разина" ],
+      "value" : "{\"name\":\"Разина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ракетная" ],
+      "value" : "{\"name\":\"Ракетная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Репина" ],
+      "value" : "{\"name\":\"Репина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Республиканская" ],
+      "value" : "{\"name\":\"Республиканская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рижская" ],
+      "value" : "{\"name\":\"Рижская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ростовская" ],
+      "value" : "{\"name\":\"Ростовская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рыскулова" ],
+      "value" : "{\"name\":\"Рыскулова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рысмендиева" ],
+      "value" : "{\"name\":\"Рысмендиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Рязанская" ],
+      "value" : "{\"name\":\"Рязанская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "С. Акылбекова" ],
+      "value" : "{\"name\":\"С. Акылбекова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Садаева" ],
+      "value" : "{\"name\":\"Садаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Садовая" ],
+      "value" : "{\"name\":\"Садовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Садыгалиева" ],
+      "value" : "{\"name\":\"Садыгалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Садырбаева" ],
+      "value" : "{\"name\":\"Садырбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Салиева" ],
+      "value" : "{\"name\":\"Салиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Саликамская" ],
+      "value" : "{\"name\":\"Саликамская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Салтыкова Щедрина" ],
+      "value" : "{\"name\":\"Салтыкова Щедрина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Саратовская" ],
+      "value" : "{\"name\":\"Саратовская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сарыкулакова" ],
+      "value" : "{\"name\":\"Сарыкулакова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сары-Челекская" ],
+      "value" : "{\"name\":\"Сары-Челекская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Свердлова" ],
+      "value" : "{\"name\":\"Свердлова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Севастопольская" ],
+      "value" : "{\"name\":\"Севастопольская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Северная" ],
+      "value" : "{\"name\":\"Северная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Северо-Ипподромная" ],
+      "value" : "{\"name\":\"Северо-Ипподромная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сельповская" ],
+      "value" : "{\"name\":\"Сельповская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сельсоветская" ],
+      "value" : "{\"name\":\"Сельсоветская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Семетей" ],
+      "value" : "{\"name\":\"Семетей\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Серафимович" ],
+      "value" : "{\"name\":\"Серафимович\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Серова" ],
+      "value" : "{\"name\":\"Серова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Серпуховская" ],
+      "value" : "{\"name\":\"Серпуховская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сеченова" ],
+      "value" : "{\"name\":\"Сеченова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сибирский проезд" ],
+      "value" : "{\"name\":\"Сибирский проезд\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Симферопольский" ],
+      "value" : "{\"name\":\"Симферопольский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Скрябина" ],
+      "value" : "{\"name\":\"Скрябина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Славгородская" ],
+      "value" : "{\"name\":\"Славгородская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Славянская" ],
+      "value" : "{\"name\":\"Славянская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Советская" ],
+      "value" : "{\"name\":\"Советская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сокулукская" ],
+      "value" : "{\"name\":\"Сокулукская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Средняя" ],
+      "value" : "{\"name\":\"Средняя\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Суванбердиева" ],
+      "value" : "{\"name\":\"Суванбердиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Суворова" ],
+      "value" : "{\"name\":\"Суворова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Суеркулова" ],
+      "value" : "{\"name\":\"Суеркулова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сухомлинова" ],
+      "value" : "{\"name\":\"Сухомлинова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Суюнбаева" ],
+      "value" : "{\"name\":\"Суюнбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Сыдыкова" ],
+      "value" : "{\"name\":\"Сыдыкова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Т. Молдо" ],
+      "value" : "{\"name\":\"Т. Молдо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Т.Фрунзе" ],
+      "value" : "{\"name\":\"Т.Фрунзе\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Таалай" ],
+      "value" : "{\"name\":\"Таалай\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Табалдиева" ],
+      "value" : "{\"name\":\"Табалдиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Табачная" ],
+      "value" : "{\"name\":\"Табачная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Табышалиева" ],
+      "value" : "{\"name\":\"Табышалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Таймырский" ],
+      "value" : "{\"name\":\"Таймырский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тайшетская" ],
+      "value" : "{\"name\":\"Тайшетская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Талдысуйская" ],
+      "value" : "{\"name\":\"Талдысуйская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ташаузская" ],
+      "value" : "{\"name\":\"Ташаузская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ташкентская" ],
+      "value" : "{\"name\":\"Ташкентская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ташкумырская" ],
+      "value" : "{\"name\":\"Ташкумырская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тверская" ],
+      "value" : "{\"name\":\"Тверская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тельмана" ],
+      "value" : "{\"name\":\"Тельмана\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Темировская" ],
+      "value" : "{\"name\":\"Темировская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Термечикова" ],
+      "value" : "{\"name\":\"Термечикова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тимирязева" ],
+      "value" : "{\"name\":\"Тимирязева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тираспольская" ],
+      "value" : "{\"name\":\"Тираспольская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Товарная вторая" ],
+      "value" : "{\"name\":\"Товарная вторая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тоголок Молдо" ],
+      "value" : "{\"name\":\"Тоголок Молдо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тойгомбаева" ],
+      "value" : "{\"name\":\"Тойгомбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тойгонбаева" ],
+      "value" : "{\"name\":\"Тойгонбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Токмокская" ],
+      "value" : "{\"name\":\"Токмокская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Токольдош" ],
+      "value" : "{\"name\":\"Токольдош\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Токомбаева" ],
+      "value" : "{\"name\":\"Токомбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Токтогула" ],
+      "value" : "{\"name\":\"Токтогула\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Токтоналиева" ],
+      "value" : "{\"name\":\"Токтоналиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Торфяная" ],
+      "value" : "{\"name\":\"Торфяная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Троицкая" ],
+      "value" : "{\"name\":\"Троицкая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Трудовая" ],
+      "value" : "{\"name\":\"Трудовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Туголбой Ата" ],
+      "value" : "{\"name\":\"Туголбой Ата\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тулебердиева" ],
+      "value" : "{\"name\":\"Тулебердиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тургенева" ],
+      "value" : "{\"name\":\"Тургенева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Турусбекова" ],
+      "value" : "{\"name\":\"Турусбекова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тыныбекова" ],
+      "value" : "{\"name\":\"Тыныбекова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тыныстанова" ],
+      "value" : "{\"name\":\"Тыныстанова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Тюменская" ],
+      "value" : "{\"name\":\"Тюменская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Удмуртская" ],
+      "value" : "{\"name\":\"Удмуртская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Улан" ],
+      "value" : "{\"name\":\"Улан\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Уметалиева" ],
+      "value" : "{\"name\":\"Уметалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Уральская" ],
+      "value" : "{\"name\":\"Уральская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Урицкого" ],
+      "value" : "{\"name\":\"Урицкого\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Усенбаева" ],
+      "value" : "{\"name\":\"Усенбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Уч-Курганская" ],
+      "value" : "{\"name\":\"Уч-Курганская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Уч-Терекский" ],
+      "value" : "{\"name\":\"Уч-Терекский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ушакова" ],
+      "value" : "{\"name\":\"Ушакова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фатьянова" ],
+      "value" : "{\"name\":\"Фатьянова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Федорова" ],
+      "value" : "{\"name\":\"Федорова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фере" ],
+      "value" : "{\"name\":\"Фере\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фиолетова" ],
+      "value" : "{\"name\":\"Фиолетова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фирсова" ],
+      "value" : "{\"name\":\"Фирсова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фруктовая" ],
+      "value" : "{\"name\":\"Фруктовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фрунзе" ],
+      "value" : "{\"name\":\"Фрунзе\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фурманова" ],
+      "value" : "{\"name\":\"Фурманова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фучика" ],
+      "value" : "{\"name\":\"Фучика\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Хивинская" ],
+      "value" : "{\"name\":\"Хивинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Хоперская" ],
+      "value" : "{\"name\":\"Хоперская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Целинная" ],
+      "value" : "{\"name\":\"Целинная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Целиноградская" ],
+      "value" : "{\"name\":\"Целиноградская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Циолковского" ],
+      "value" : "{\"name\":\"Циолковского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чайковского" ],
+      "value" : "{\"name\":\"Чайковского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чебоксарская" ],
+      "value" : "{\"name\":\"Чебоксарская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Челюскина" ],
+      "value" : "{\"name\":\"Челюскина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Челябинский" ],
+      "value" : "{\"name\":\"Челябинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Черепки 2е" ],
+      "value" : "{\"name\":\"Черепки 2е\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чехова" ],
+      "value" : "{\"name\":\"Чехова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чимкентская" ],
+      "value" : "{\"name\":\"Чимкентская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чинара" ],
+      "value" : "{\"name\":\"Чинара\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чокморова" ],
+      "value" : "{\"name\":\"Чокморова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чолпон-Атинская" ],
+      "value" : "{\"name\":\"Чолпон-Атинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чон-Коргонская" ],
+      "value" : "{\"name\":\"Чон-Коргонская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чувашская" ],
+      "value" : "{\"name\":\"Чувашская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чуй" ],
+      "value" : "{\"name\":\"Чуй\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чуйкова" ],
+      "value" : "{\"name\":\"Чуйкова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чукотская" ],
+      "value" : "{\"name\":\"Чукотская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ш. Руставели" ],
+      "value" : "{\"name\":\"Ш. Руставели\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шакирова" ],
+      "value" : "{\"name\":\"Шакирова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шаумяна" ],
+      "value" : "{\"name\":\"Шаумяна\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шевченко" ],
+      "value" : "{\"name\":\"Шевченко\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шмидта" ],
+      "value" : "{\"name\":\"Шмидта\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шопокова" ],
+      "value" : "{\"name\":\"Шопокова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шорина" ],
+      "value" : "{\"name\":\"Шорина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шуберта" ],
+      "value" : "{\"name\":\"Шуберта\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шуш-Тюбе" ],
+      "value" : "{\"name\":\"Шуш-Тюбе\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Щербакова" ],
+      "value" : "{\"name\":\"Щербакова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Щусева" ],
+      "value" : "{\"name\":\"Щусева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ы. Абдрахманова" ],
+      "value" : "{\"name\":\"Ы. Абдрахманова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Элебаева" ],
+      "value" : "{\"name\":\"Элебаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Энтузиастов" ],
+      "value" : "{\"name\":\"Энтузиастов\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Эркиндик" ],
+      "value" : "{\"name\":\"Эркиндик\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Эркин-Тоо" ],
+      "value" : "{\"name\":\"Эркин-Тоо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ю. Фучика" ],
+      "value" : "{\"name\":\"Ю. Фучика\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Юдахина" ],
+      "value" : "{\"name\":\"Юдахина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Юнусалиева" ],
+      "value" : "{\"name\":\"Юнусалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Якутская" ],
+      "value" : "{\"name\":\"Якутская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ялтинская" ],
+      "value" : "{\"name\":\"Ялтинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Январская" ],
+      "value" : "{\"name\":\"Январская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Уметалиева" ],
+      "value" : "{\"name\":\"Уметалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Уральская" ],
+      "value" : "{\"name\":\"Уральская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Урицкого" ],
+      "value" : "{\"name\":\"Урицкого\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Урожайный" ],
+      "value" : "{\"name\":\"Урожайный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Урючный" ],
+      "value" : "{\"name\":\"Урючный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Усенбаева" ],
+      "value" : "{\"name\":\"Усенбаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Уссурийский" ],
+      "value" : "{\"name\":\"Уссурийский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Уфимский" ],
+      "value" : "{\"name\":\"Уфимский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Уч-Курганская" ],
+      "value" : "{\"name\":\"Уч-Курганская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Уч-Терекский" ],
+      "value" : "{\"name\":\"Уч-Терекский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ушакова" ],
+      "value" : "{\"name\":\"Ушакова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фабричный" ],
+      "value" : "{\"name\":\"Фабричный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фатьянова" ],
+      "value" : "{\"name\":\"Фатьянова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Федорова" ],
+      "value" : "{\"name\":\"Федорова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Феодосийский" ],
+      "value" : "{\"name\":\"Феодосийский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ферганский" ],
+      "value" : "{\"name\":\"Ферганский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фере" ],
+      "value" : "{\"name\":\"Фере\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фестивальный" ],
+      "value" : "{\"name\":\"Фестивальный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фиолетова" ],
+      "value" : "{\"name\":\"Фиолетова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фирсова" ],
+      "value" : "{\"name\":\"Фирсова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Флотский" ],
+      "value" : "{\"name\":\"Флотский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фонтанный" ],
+      "value" : "{\"name\":\"Фонтанный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фруктовая" ],
+      "value" : "{\"name\":\"Фруктовая\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фрунзе" ],
+      "value" : "{\"name\":\"Фрунзе\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фурманова" ],
+      "value" : "{\"name\":\"Фурманова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Фучика" ],
+      "value" : "{\"name\":\"Фучика\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Хабаровский" ],
+      "value" : "{\"name\":\"Хабаровский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Хайдарканский" ],
+      "value" : "{\"name\":\"Хайдарканский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Хивинская" ],
+      "value" : "{\"name\":\"Хивинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Хоперская" ],
+      "value" : "{\"name\":\"Хоперская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Целинная" ],
+      "value" : "{\"name\":\"Целинная\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Целиноградская" ],
+      "value" : "{\"name\":\"Целиноградская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Циолковского" ],
+      "value" : "{\"name\":\"Циолковского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чайковского" ],
+      "value" : "{\"name\":\"Чайковского\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чаткальский" ],
+      "value" : "{\"name\":\"Чаткальский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чатыркульский" ],
+      "value" : "{\"name\":\"Чатыркульский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чебоксарская" ],
+      "value" : "{\"name\":\"Чебоксарская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Челюскина" ],
+      "value" : "{\"name\":\"Челюскина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Челябинский" ],
+      "value" : "{\"name\":\"Челябинский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Черемховский" ],
+      "value" : "{\"name\":\"Черемховский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Черепки 2е" ],
+      "value" : "{\"name\":\"Черепки 2е\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Черкасский" ],
+      "value" : "{\"name\":\"Черкасский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Черноморский" ],
+      "value" : "{\"name\":\"Черноморский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чехова" ],
+      "value" : "{\"name\":\"Чехова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чимкентская" ],
+      "value" : "{\"name\":\"Чимкентская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чинара" ],
+      "value" : "{\"name\":\"Чинара\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чокморова" ],
+      "value" : "{\"name\":\"Чокморова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чолпон-Атинская" ],
+      "value" : "{\"name\":\"Чолпон-Атинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чон-Коргонская" ],
+      "value" : "{\"name\":\"Чон-Коргонская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чувашская" ],
+      "value" : "{\"name\":\"Чувашская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чугуевский" ],
+      "value" : "{\"name\":\"Чугуевский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чуй" ],
+      "value" : "{\"name\":\"Чуй\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чуйкова" ],
+      "value" : "{\"name\":\"Чуйкова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Чукотская" ],
+      "value" : "{\"name\":\"Чукотская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ш. Руставели" ],
+      "value" : "{\"name\":\"Ш. Руставели\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шакирова" ],
+      "value" : "{\"name\":\"Шакирова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шаумяна" ],
+      "value" : "{\"name\":\"Шаумяна\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шевченко" ],
+      "value" : "{\"name\":\"Шевченко\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Школьный" ],
+      "value" : "{\"name\":\"Школьный\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шмидта" ],
+      "value" : "{\"name\":\"Шмидта\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шопокова" ],
+      "value" : "{\"name\":\"Шопокова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шорина" ],
+      "value" : "{\"name\":\"Шорина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шуберта" ],
+      "value" : "{\"name\":\"Шуберта\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шушенский" ],
+      "value" : "{\"name\":\"Шушенский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Шуш-Тюбе" ],
+      "value" : "{\"name\":\"Шуш-Тюбе\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Щербакова" ],
+      "value" : "{\"name\":\"Щербакова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Щорса" ],
+      "value" : "{\"name\":\"Щорса\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Щусева" ],
+      "value" : "{\"name\":\"Щусева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ы. Абдрахманова" ],
+      "value" : "{\"name\":\"Ы. Абдрахманова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Элебаева" ],
+      "value" : "{\"name\":\"Элебаева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Элебесова" ],
+      "value" : "{\"name\":\"Элебесова\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Энтузиастов" ],
+      "value" : "{\"name\":\"Энтузиастов\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Эркиндик" ],
+      "value" : "{\"name\":\"Эркиндик\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Эркин-Тоо" ],
+      "value" : "{\"name\":\"Эркин-Тоо\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Эстонский" ],
+      "value" : "{\"name\":\"Эстонский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ю. Фучика" ],
+      "value" : "{\"name\":\"Ю. Фучика\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Юдахина" ],
+      "value" : "{\"name\":\"Юдахина\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Юнусалиева" ],
+      "value" : "{\"name\":\"Юнусалиева\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Якутская" ],
+      "value" : "{\"name\":\"Якутская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ялтинская" ],
+      "value" : "{\"name\":\"Ялтинская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ямбургский" ],
+      "value" : "{\"name\":\"Ямбургский\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Январская" ],
+      "value" : "{\"name\":\"Январская\"}"
+    }, {
+      "type" : "synonyms",
+      "rule" : [ "Ярославский" ],
+      "value" : "{\"name\":\"Ярославский\"}"
+    } ]
+  } ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
   "spellerDictionary" : [ ],
   "systemEntities" : [ {
