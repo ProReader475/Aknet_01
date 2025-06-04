@@ -1,6 +1,6 @@
 theme: /CommonDiagnostics
     
-    state: CommonDiagnostic
+    state: CommonDiagnostics
         script:
             var requestid = $context.request.questionId;
             var dialogid = $context.sessionId;
@@ -11,13 +11,14 @@ theme: /CommonDiagnostics
                     log("//// Статус от сервера: " + JSON.stringify(results));
     
                     if (results && results.status === "working") {
-                        $reactions.transition("/CommonDiagnostics/PersonalDiagnostics");
+                        $reactions.answer("WORKING");
+                        $reactions.transition("/CommonDiagnostics/CommonDiagnostics/PersonalDiagnostics");
                     } else if (results && results.status === "malfunction") {
                         $reactions.answer("MALFUNCTION");
-                        $reactions.transition("/CommonDiagnostic/NegativeBalance");
+                        $reactions.transition("/CommonDiagnostics/NegativeBalance");
                     } else {
                         $reactions.answer("Не удалось определить статус. Повторите позже.");
-                        $reactions.transition("/CommonDiagnostic/UnknownError");
+                        $reactions.transition("/CommonDiagnostics/UnknownError");
                     }
                 })
                 .catch(function(error) {
@@ -32,7 +33,7 @@ theme: /CommonDiagnostics
                     $session.stateCounterInARow += 1;
                     
                 if: $session.stateCounterInARow < 2
-                  go!: /CommonDiagnostics/CommonDiagnostic
+                   go!: /CommonDiag/CommonDiagnostics
                     
                 else:
                     
@@ -44,7 +45,7 @@ theme: /CommonDiagnostics
             var dialogid = $context.sessionId;
             var callerid = $context.request.callerId;
             var account = $session.account || null;
-            $session.userAuthorized = true;
+    
             var reason = "Не работает интернет";
             $session.reason = reason;
     
@@ -53,7 +54,7 @@ theme: /CommonDiagnostics
                     .then(function(customer) {
                         if (!customer) {
                             $reactions.answer("Ошибка получения данных. Повторите позже.");
-                            $reactions.transition("/CommonDiagnostics/CommonDiagnostic/Error");
+                            $reactions.transition("/CommonDiagnostics/Error");
                             return;
                         }
     
@@ -64,7 +65,7 @@ theme: /CommonDiagnostics
                             $reactions.transition("/Balance");
                         } else {
                             $reactions.answer("Проверка пройдена. Продолжаем диагностику.");
-                            $reactions.transition("/CommonDiagnostics/PersonalDiagnostics");
+                            $reactions.transition("/PersonalDiagnostics");
                         }
                     })
                     .catch(function(error) {
@@ -118,6 +119,11 @@ theme: /CommonDiagnostics
               $reactions.say("Примерное время устранения неполадок: " + recoveryHours + " ч.");
             } else {
               $reactions.say("К сожалению, не могу сообщить точные сроки устранения неполадок.");
+                        $reactions.transition("/CommonDiagnostics/Error");
+                    });
+            } else {
+                $reactions.answer("Пожалуйста, авторизуйтесь, чтобы продолжить.");
+                $reactions.transition("/Authorization");
             }
         
             $reactions.transition("/SomethingElse");
