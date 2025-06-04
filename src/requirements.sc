@@ -3,12 +3,6 @@ require: patterns.sc
 require: common.js
   module = sys.zb-common
 
-require: scripts/init.js
-require: scripts/api.js
-require: scripts/functions.js
-require: scripts/validPhoneNumber.js
-require: scripts/clientpurpose.js
-
 require: patterns/patterns.sc
   
 require: entities/names_KG/namesKG.sc
@@ -20,5 +14,12 @@ require: entities/regionsEntity/regions.sc
 require: themes/authorization.sc
 require: themes/generalStates.sc
 require: themes/commonDiagnostics.sc
+require: themes/balance.sc
 
+require: scripts/init.js
+require: scripts/api.js
+require: scripts/functions.js
+require: scripts/validPhoneNumber.js
+require: scripts/clientpurpose.js
+require: scripts/helpers.js
 require: scripts/addressSelection.js
