@@ -24,6 +24,7 @@ theme: /CommonDiagnostics
                     log("//// Глобальная ошибка: " + JSON.stringify(error));
                     $reactions.answer("Произошла ошибка. Проверьте логи.");
                 });
+                
         state: Error
             
                 script:
@@ -105,3 +106,42 @@ theme: /CommonDiagnostics
                     $reactions.answer("Произошла ошибка при диагностике оборудования.");
                     $reactions.transition("/CommonDiagnostics/CommonDiagnostic/Error");
                 });
+    state: TicketIsAlreadyCreated
+        
+        script:
+            var reason = $session.reason || "неизвестна";
+            var recoveryHours = $session.recovery_hours;
+        
+            $reactions.say("Нам уже известно о проблеме, и наши специалисты работают над её решением. Причина сбоя: " + reason + ".");
+        
+            if (recoveryHours) {
+              $reactions.say("Примерное время устранения неполадок: " + recoveryHours + " ч.");
+            } else {
+              $reactions.say("К сожалению, не могу сообщить точные сроки устранения неполадок.");
+            }
+        
+            $reactions.transition("/SomethingElse");
+    
+    state: SwitchIsNotResponding
+        a: Уточните, пожалуйста, есть ли перебои с электричеством по Вашему адресу?
+        state: PowerWasLost
+            q: $agree
+            script:
+                $analytics.setScenarioAction("Перебои с элктричеством - Да")
+                $reactions.transition("/CommonDiagnostics/EqipmentCheck");
+        state: PowerWasStablr
+            q: $disagree
+            script:
+                $analytics.setScenarioAction("Перебои с элктричеством - Нет")
+                $reactions.transition("/CommonDiagnostics/EqipmentCheck");
+    state: EquipmentCheck
+        a: Подскажите, вы сейчас находитесь рядом с оборудованием?
+        state: EquipmentCheckYes
+            q: $agree
+            go!: /GeneralStates/ConnectionTechSupport
+        state: LocationNotHome
+            q: $disagree
+            script:
+                $session.notReadyForProbe = true
+                $reactions.answer(" Для дальнейшего решения проблемы необходимо находиться рядом с оборудованием. Когда будете готовы к диагностике, напишите 'Готов к диагностике'.");
+                $reactions.transition("/SomethingElse"); 

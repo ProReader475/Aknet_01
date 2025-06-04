@@ -23,7 +23,7 @@
     }
   },
   "intents" : [ {
-    "path" : "/ЗаявкаНаПерерасчет",
+    "path" : "/RecalculationRequest",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
@@ -45,7 +45,7 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "path" : "/ДоступДляДругого",
+    "path" : "/AccessForAnother",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
