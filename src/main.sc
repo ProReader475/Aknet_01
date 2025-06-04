@@ -54,8 +54,13 @@ theme: /
             scriptEs6:
                 let query = ($request.query);
                 query = query.replace(/\n/g, " ").trim();
+
+                log("_____________TEST__________" + query);
+                
                 handleQuery(query);
 
+                log("______________$session__________________" + toPrettyString($session))
+             
     state: SomethingElse
             random:
                 a: Подскажите, у вас остались вопросы?
