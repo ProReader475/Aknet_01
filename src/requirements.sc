@@ -20,6 +20,8 @@ require: scripts/init.js
 require: scripts/api.js
 require: scripts/functions.js
 require: scripts/validPhoneNumber.js
-require: scripts/clientpurpose.js
 require: scripts/helpers.js
 require: scripts/addressSelection.js
+require: scripts/clientpurpose.js
+    type = scriptEs6
+    name = purpose

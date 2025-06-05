@@ -2,7 +2,6 @@ theme: /Auth
     
     state:Authorization
         script: $session.stateCounterInARow = 0
-            $session.callerid = "996555742261"
             
         if:$client.userInfo
             a:В прошлый раз Вы авторизовались по адресу address, продолжаем говорить про этот адрес?
@@ -101,7 +100,6 @@ theme: /Auth
             
                     $reactions.answer("В базе указан адрес " + output.addresses + ". Данная информация актуальна?");
                     $reactions.buttons(output.buttons);
-                    $reactions.buttons({ text: "Нет нужного адреса", transition: "/Auth/SearchByPhone" });
                 });
             
             state:Agree
@@ -160,11 +158,13 @@ theme: /Auth
         
                 if (Array.isArray(output.addresses)) {
                     $reactions.answer("Выберите нужный адрес из списка:");
+                    $reactions.buttons(output.buttons);
+                    $reactions.buttons({ text: "Нет нужного адреса", transition: "/Auth/SearchByName" });
                 } else {
+                    $session.account = result.customers[0].customer.id;
                     $reactions.answer("В базе указан адрес " + output.addresses + ". Данная информация актуальна?");
+                    $reactions.buttons(output.buttons);
                 }
-                $reactions.buttons(output.buttons);
-                $reactions.buttons({ text: "Нет нужного адреса", transition: "/Auth/SearchByName" });
             });
         
         state:Agree
@@ -173,6 +173,7 @@ theme: /Auth
                 
         state:Disagree
             q: * $disagree *
+            script: delete $session.account
             go!:/Auth/SearchByName
             
         state:Error
@@ -223,11 +224,13 @@ theme: /Auth
             
                     if (Array.isArray(output.addresses)) {
                         $reactions.answer("Выберите нужный адрес из списка:");
+                        $reactions.buttons(output.buttons);
+                        $reactions.buttons({ text: "Нет нужного адреса", transition: "/Auth/SearchByName" });
                     } else {
+                        $session.account = result.customers[0].customer.id;
                         $reactions.answer("В базе указан адрес " + output.addresses + ". Данная информация актуальна?");
+                        $reactions.buttons(output.buttons);
                     }
-                    $reactions.buttons(output.buttons);
-                    $reactions.buttons({ text: "Нет нужного адреса", transition: "/Auth/SearchByAddress" });
                 });
                 
             state:Agree
@@ -236,6 +239,7 @@ theme: /Auth
                     
             state:Disagree
                 q: * $disagree *
+                script: delete $session.account
                 go!:/Auth/SearchByAddress
                 
             state:Error
@@ -289,11 +293,13 @@ theme: /Auth
             
                     if (Array.isArray(output.addresses)) {
                         $reactions.answer("Выберите нужный адрес из списка:");
+                        $reactions.buttons(output.buttons);
+                        $reactions.buttons({ text: "Нет нужного адреса", transition: "/Auth/SearchByName" });
                     } else {
+                        $session.account = result.customers[0].customer.id;
                         $reactions.answer("В базе указан адрес " + output.addresses + ". Данная информация актуальна?");
+                        $reactions.buttons(output.buttons);
                     }
-                    $reactions.buttons(output.buttons);
-                    $reactions.buttons({ text: "Нет нужного адреса", transition: "/Auth/SearchByAddress" });
                 });
                 
             state:Agree
@@ -302,6 +308,7 @@ theme: /Auth
                     
             state:Disagree
                 q: * $disagree *
+                script: delete $session.account
                 go!:/Auth/SearchByAddress
                 
             state:Error
@@ -314,6 +321,16 @@ theme: /Auth
                     a:go! /AnyError
         
     state:SuccessfulAuthorization
+        script:
+            $session.userAuthorized = true;
+                
+            if($session.purpose == "$CheckBalance"){
+                $reactions.transition("/CheckBalance/Balance");
+            }if($session.purpose == "$GetCredit"){
+                $reactions.transition("/Credit/TemporaryAccess");
+            }if($session.purpose == "$NoInternetOrTV"){
+                $reactions.transition("/CommonDiagnostics/CommonDiagnostics");
+            }
 
 
 

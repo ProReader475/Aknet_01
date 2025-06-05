@@ -128,7 +128,7 @@ function endChat(requestid, dialogid,callerid, need_callback,context) {
 }
 
 function commonprob(requestid, dialogid) {
-    var apiUrl = "https://testbot.softai.kg/probe/common";
+    var apiUrl = "https://aknet.softai.kg/probe/common";
     var payload = {
         requestid: requestid,
         dialogid: dialogid
@@ -166,8 +166,8 @@ function commonprob(requestid, dialogid) {
         });
 }
 
-function getCustomerInfo(requestid, dialogid, callerid, account) {
-    var apiUrl = "https://testbot.softai.kg/customer/get";
+function getCustomerInfo(requestid, dialogid, callerid, account) { 
+    var apiUrl = "https://aknet.softai.kg/customer/get";
     var payload = {
         requestid: requestid,
         dialogid: dialogid,
@@ -208,7 +208,7 @@ function getCustomerInfo(requestid, dialogid, callerid, account) {
 }
 
 function fetchBalanceCustomerData(requestid, dialogid, callerid, account, address) {
-    var apiUrl = "https://testbot.softai.kg/customer/get";
+    var apiUrl = "https://aknet.softai.kg/customer/get";
     var payload = {
         requestid: requestid,
         dialogid: dialogid,

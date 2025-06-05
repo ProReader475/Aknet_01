@@ -37,36 +37,33 @@ theme: /
     state: Menu
         a:Подскажите, чем я могу Вам помочь?
         buttons:
-            "Получение кредита (временного доступа)" -> /Auth/Authorization
+            "Получение кредита (временного доступа)" 
+            "Не работает интернет или телевидение" 
+            "Подключение к интернету или телевидению" 
+            "Оплатить услуги" 
+            "Узнать баланс лицевого счета" 
             
         state: CatchMenu
             q:$ConnectInternetOrTV
             q:$PayServices
             q:$GetCredit
             q:$NoInternetOrTV
-            q:$CheckBalance 
-            q:$First
-            q:$Second
-            q:$Third
-            q:$Fourth
-            q:$Fifth
+            q:$CheckBalance
             
             scriptEs6:
-                let query = ($request.query);
-                query = query.replace(/\n/g, " ").trim();
-                handleQuery(query);
+                purpose.handleQuery($session);
 
     state: SomethingElse
             random:
                 a: Подскажите, у вас остались вопросы?
                 a: Могу ли я помочь чем-то еще?
                 a: Нужны ответы на ещё какие-либо вопросы?
-                buttons:
-                    "Получение кредита (временного доступа)"
-                    "Не работает интернет или телевидение"
-                    "Подключение к интернету или телевидению"
-                    "Оплатить услуги"
-                    "Узнать баланс лицевого счета"
+            buttons:
+                "Получение кредита (временного доступа)"
+                "Не работает интернет или телевидение"
+                "Подключение к интернету или телевидению"
+                "Оплатить услуги"
+                "Узнать баланс лицевого счета"
                     
             state: NoQuestions
                 q: $NoMoreQuestions
@@ -78,16 +75,10 @@ theme: /
                 q:$GetCredit
                 q:$NoInternetOrTV
                 q:$CheckBalance 
-                q:$First
-                q:$Second
-                q:$Third
-                q:$Fourth
-                q:$Fifth
                 
                 scriptEs6:
-                    let query = ($request.query);
-                    query = query.replace(/\n/g, " ").trim();
-                    handleQuery(query);
+                    purpose.handleQuery($session);
+                    
     state: Bye
         q!: * $Bye *
         random:
