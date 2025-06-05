@@ -133,6 +133,7 @@ theme: /Auth
     state:SearchByPhone
         a:Попробую поискать подходящие счета по номеру телефона.
         script:
+            $session.account = $parseTree["_duckling.number"];
             var callerid = $session.callerid;
             var requestid = $context.request.questionId;
             var dialogid = $context.sessionId;
@@ -246,6 +247,9 @@ theme: /Auth
                 else:
                     a:go! /AnyError
                 
+
+        script:
+            
     
     state:SearchByAddress
         a:Пожалуйста, введите полный адрес владельца договора.
