@@ -1,4 +1,5 @@
-function searchacc(callerid, requestid, dialogid, account) {
+
+function searchacc(callerid, requestid, dialogid, account, name, address) {
     var apiUrl = "https://aknet.softai.kg/customer/search";
     var payload = {
         callerid: callerid,
@@ -9,6 +10,14 @@ function searchacc(callerid, requestid, dialogid, account) {
     if (account !== undefined) {
         payload.account = account;
     }
+
+    if (name !== undefined) {
+        payload.name = name;
+    }
+    if (address !== undefined) {
+        payload.address = address;
+    }
+
 
     log("///1234 Сформированный payload: " + JSON.stringify(payload));
 
