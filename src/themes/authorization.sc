@@ -329,7 +329,7 @@ theme: /Auth
             }if($session.purpose == "$GetCredit"){
                 $reactions.transition("/Credit/TemporaryAccess");
             }if($session.purpose == "$NoInternetOrTV"){
-                $reactions.transition("/CommonDiagnostics/CommonDiagnostics");
+                $reactions.transition("/Status/ApplicationStatus");
             }
 
 
