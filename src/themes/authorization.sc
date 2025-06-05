@@ -123,6 +123,7 @@ theme: /Auth
     state:SearchByPhone
         a:Попробую поискать подходящие счета по номеру телефона.
         script:
+            $session.account = $parseTree["_duckling.number"];
             var callerid = $session.callerid;
             var requestid = $context.request.questionId;
             var dialogid = $context.sessionId;
@@ -175,46 +176,7 @@ theme: /Auth
         
     state:SearchByName
         a:Пожалуйста, уточните полные фамилию, имя и отчество владельца договора.
-            
-        state:DontKnow
-            q: * $dontKnow *
-            a:go! /СonnectionTechSupport
-            
-        state:CheckName
-            event: noMatch
-            script:
-                var name = $request.query
-                var callerid = $session.callerid;
-                var requestid = $context.request.questionId;
-                var dialogid = $context.sessionId;
-            
-                searchacc(callerid, requestid, dialogid, undefined, name).then(function(result) {
-                    if (!result || result.status === "error") {
-                        log("Ошибка при выполнении запроса.");
-                        $reactions.transition("/Auth/SearchByPhone/Error");
-                        return;
-                    }
-            
-                    if (result.status === "empty") {
-                        log("Нет данных для отображения.");
-                        $reactions.answer("Такой счёт в базе не нашёлся.");
-                        $reactions.answer("go! /ConnectionTechSupport");
-                        return;
-                    }
-            
-                    $session.searchResults = result.customers;
-                    log("//// RESULTS1 " + toPrettyString($session.searchResults));
-            
-                    var output = AdressesOutput($session.searchResults);
-                    log("//// result " + toPrettyString(output));
-            
-                    if (Array.isArray(output.addresses)) {
-                        $reactions.answer("Выберите нужный адрес из списка:");
-                    } else {
-                        $reactions.answer("В базе указан адрес " + output.addresses + ". Данная информация актуальна?");
-                    }
-                    $reactions.buttons(output.buttons);
-                });
+        script:
             
     
     state:SearchByAddress
