@@ -33,5 +33,5 @@ theme: /Status
                     });
             } else {
                 $reactions.answer("Пожалуйста, авторизуйтесь, чтобы продолжить.");
-                $reactions.transition("/Authorization");
+                $reactions.transition("/Auth/Authorization");
             }
