@@ -2,7 +2,7 @@ theme: /Auth
     
     state:Authorization
         script: $session.stateCounterInARow = 0
-            $session.callerid = "776123456"
+            $session.callerid = "996555742261"
             
         if:$client.userInfo
             a:В прошлый раз Вы авторизовались по адресу address, продолжаем говорить про этот адрес?
@@ -37,7 +37,7 @@ theme: /Auth
             a:Для продолжения разговора мне нужно Вас авторизовать. Укажите, пожалуйста, номер телефона, привязанный к счёту.
         
         state: ThisPhone
-            q: * agree *
+            q: * $agree *
             go!:/Auth/AskAccountNumber
             
         state:AnotherPhone
@@ -101,6 +101,7 @@ theme: /Auth
             
                     $reactions.answer("В базе указан адрес " + output.addresses + ". Данная информация актуальна?");
                     $reactions.buttons(output.buttons);
+                    $reactions.buttons({ text: "Нет нужного адреса", transition: "/Auth/SearchByPhone" });
                 });
             
             state:Agree
@@ -119,6 +120,15 @@ theme: /Auth
                     go!:/Auth/AskAccountNumber/ConfirmAddress
                 else:
                     a:go! /AnyError
+                    
+        state:CatchAll || noContext = true
+            script:
+                $session.catchStateCounterInARow++
+    
+            if: $session.catchStateCounterInARow < 2
+                a:Извините, похоже, при вводе номера была допущена ошибка. Пожалуйста, перепроверьте номер лицевого счёта и введите его ещё раз. Номер должен состоять из 2-10 цифр, посмотреть его можно в портале iPTV приставки, либо в договоре, заключённом с компанией.
+            else:
+                a:go! /ConnectionTechSupport
         
     state:SearchByPhone
         a:Попробую поискать подходящие счета по номеру телефона.
@@ -153,6 +163,7 @@ theme: /Auth
                     $reactions.answer("В базе указан адрес " + output.addresses + ". Данная информация актуальна?");
                 }
                 $reactions.buttons(output.buttons);
+                $reactions.buttons({ text: "Нет нужного адреса", transition: "/Auth/SearchByName" });
             });
         
         state:Agree
@@ -187,8 +198,72 @@ theme: /Auth
                 var callerid = $session.callerid;
                 var requestid = $context.request.questionId;
                 var dialogid = $context.sessionId;
+                $session.name = name
             
                 searchacc(callerid, requestid, dialogid, undefined, name).then(function(result) {
+                    if (!result || result.status === "error") {
+                        log("Ошибка при выполнении запроса.");
+                        $reactions.transition("/Auth/SearchByName/CheckName/Error");
+                        return;
+                    }
+            
+                    if (result.status === "empty") {
+                        log("Нет данных для отображения.");
+                        $reactions.answer("Такой счёт в базе не нашёлся.");
+                        $reactions.answer("go! /ConnectionTechSupport");
+                        return;
+                    }
+            
+                    $session.searchResults = result.customers;
+                    log("//// RESULTS1 " + toPrettyString($session.searchResults));
+            
+                    var output = AdressesOutput($session.searchResults);
+                    log("//// result " + toPrettyString(output));
+            
+                    if (Array.isArray(output.addresses)) {
+                        $reactions.answer("Выберите нужный адрес из списка:");
+                    } else {
+                        $reactions.answer("В базе указан адрес " + output.addresses + ". Данная информация актуальна?");
+                    }
+                    $reactions.buttons(output.buttons);
+                    $reactions.buttons({ text: "Нет нужного адреса", transition: "/Auth/SearchByAddress" });
+                });
+                
+            state:Agree
+                q: * $agree *
+                go!:/Auth/SuccessfulAuthorization
+                    
+            state:Disagree
+                q: * $disagree *
+                go!:/Auth/SearchByAddress
+                
+            state:Error
+                script:
+                    $session.stateCounterInARow++
+        
+                if: $session.stateCounterInARow < 2
+                    go!:/Auth/SearchByName/CheckName
+                else:
+                    a:go! /AnyError
+                
+    
+    state:SearchByAddress
+        a:Пожалуйста, введите полный адрес владельца договора.
+            
+        state:DontKnow
+            q: * $dontKnow *
+            a:go! /СonnectionTechSupport
+            
+        state:CheckAddress
+            event: noMatch
+            script:
+                var address = $request.query
+                var name = $session.name
+                var callerid = $session.callerid;
+                var requestid = $context.request.questionId;
+                var dialogid = $context.sessionId;
+            
+                searchacc(callerid, requestid, dialogid, undefined, name, address).then(function(result) {
                     if (!result || result.status === "error") {
                         log("Ошибка при выполнении запроса.");
                         $reactions.transition("/Auth/SearchByPhone/Error");
@@ -214,10 +289,25 @@ theme: /Auth
                         $reactions.answer("В базе указан адрес " + output.addresses + ". Данная информация актуальна?");
                     }
                     $reactions.buttons(output.buttons);
+                    $reactions.buttons({ text: "Нет нужного адреса", transition: "/Auth/SearchByAddress" });
                 });
-            
-    
-    state:SearchByAddress
+                
+            state:Agree
+                q: * $agree *
+                go!:/Auth/SuccessfulAuthorization
+                    
+            state:Disagree
+                q: * $disagree *
+                go!:/Auth/SearchByAddress
+                
+            state:Error
+                script:
+                    $session.stateCounterInARow++
+        
+                if: $session.stateCounterInARow < 2
+                    go!:/Auth/SearchByAddress/CheckAddress
+                else:
+                    a:go! /AnyError
         
     state:SuccessfulAuthorization
 
